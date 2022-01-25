@@ -1,0 +1,42 @@
+:root {
+	font-size: 16px;
+	line-height: 1.7;
+	color: $text-color;
+
+	@media all and ( max-width: 767px ) {
+		font-size: 14px;
+	}
+}
+
+body {
+	font-size: 20px;
+	line-height: 1.6;
+	overflow-x: hidden;
+	font-family: $font-family-base;
+}
+
+img {
+	max-width: 100%;
+}
+
+p,
+li {
+	font-size: 1rem;
+	line-height: 1.875;
+	color: $smoke;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	li {
+		list-style: disc;
+	}
+}
+
+.trs {
+	transition: all 0.3s linear;
+}
+
