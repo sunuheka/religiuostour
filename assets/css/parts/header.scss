@@ -50,10 +50,6 @@ header {
 		margin: -70px auto 0;
 		background-color: $white;
 
-		@media all and ( min-width: 1400px ) {
-			padding: 25px 100px;
-		}
-
 		@media all and ( max-width: 767px ) {
 			padding: 10px;
 		}
@@ -120,10 +116,7 @@ header {
 		font-size: 1rem;
 		color: $dark-color;
 		font-weight: 400;
-
-		@media all and ( max-width: 1400px ) {
-			padding: 0.5rem 0.6rem;
-		}
+		padding: 0.5rem 0.6rem;
 	}
 }
 

@@ -67,11 +67,13 @@ $green: #4cbb17;
 $darkgreen: #094009;
 $lightgreen: #f5fa0a;
 $smoke: #666;
-$primary: $darkblue;
+$primary: $yellow;
 $secondary: $darkblue;
 $dark-color: #262525;
-$golden: #c29d59;
+$golden: #b6a482;
+$golden1: #c29d59;
 $white70: rgba( 255, 255, 255, 0.7 );
+$black80: rgba( 2, 2, 2, 0.8 );
 
 $link-color: #369;
 $text-color: #222;
@@ -84,8 +86,8 @@ $border-grey: #c4c4c4;
 }
 
 .btn.btn-primary {
-	background-color: $darkblue;
-	border-color: $darkblue;
+	background-color: $primary;
+	border-color: $primary;
 	padding: 14px 30px;
 
 	.icon {
