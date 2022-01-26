@@ -12,7 +12,7 @@
          <a href="" class="inIcon headerSocialicons_link"><span class="icon icon-pinterest"></span></a>
          <a href="" class="ytIcon headerSocialicons_link"><span class="icon icon-linkedln"></span></a>
        </span>
-       <a href="callto:">+099 12345678</a>
+       <a href="callto:" class="ml-3">+099 12345678</a>
     </div>
   </div>
   <div class="headerContent d-flex align-items-center justify-content-between">
@@ -23,49 +23,20 @@
       <nav class="navbar ">
         <div class="container-fluid">
           <ul class="menu">
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="about.php"
-                                    data-bs-toggle="dropdown">About</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="about.php">Introduction</a></li>
-                <li><a class="dropdown-item" href="benefits.php">Benefits &amp;
-                  Services</a></li>
-                <li><a class="dropdown-item" href="executive-commitee.php">Executive
-                  Committee</a></li>
-                <li><a class="dropdown-item"
-                                            href="organization-secretariat.php">Organization &amp;
-                  Secretariat</a></li>
-                <li><a class="dropdown-item" href="working-commitee.php">Working
-                  Committees</a></li>
-                <li class="nav-item dropdown"> <a class="dropdown-item nav-link dropdown-toggle"
-                                            href="javascript:;">Chapters</a>
-                  <ul class="submenu dropdown-menu">
-                    <li><a class="dropdown-item" href="eastern-region.php">Eastern
-                      Region</a></li>
-                    <li><a class="dropdown-item" href="eastern-region.php">Western Region</a> </li>
-                    <li><a class="dropdown-item" href="eastern-region.php">Mid Region</a></li>
-                  </ul>
-                </li>
-                <li> <a class="dropdown-item" href="secretariat.php">Secretariat</a> </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="news.php" data-bs-toggle="dropdown"> Business
-              News/Events </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="news.php">NCCI News and Events</a></li>
-                <li><a class="dropdown-item" href="news.php">Business News</a></li>
-                <li><a class="dropdown-item" href="news.php">Press Release</a></li>
-              </ul>
-            </li>
-            <li class="nav-item"> <a class="nav-link " href="membership.php">Business
-              Members</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="gallery.php">Resources</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="gallery.php">Archive</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="gallery.php">Gallery</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="gallery.php">Contact</a> </li>
-           
+              <li class="nav-item dropdown"> 
+                <a class="nav-link dropdown-toggle" href="about.php" data-bs-toggle="dropdown">Home</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.php">Introduction</a></li>
+                </ul>
+              </li>            
+              <li class="nav-item"> <a class="nav-link " href="membership.php">About Us</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="gallery.php">Religious Circuits</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="gallery.php">Gallery</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="gallery.php">Contact</a> </li>
           </ul>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-align-right navbar-toggler-icon"></span> 
+          <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
+              data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"> 
+              <span class="fas fa-align-right navbar-toggler-icon"></span> 
           </button>
           <div class="body_overlay"></div>
           <div class="collapse navbar-collapse" id="main_nav">
@@ -152,9 +123,9 @@
         </div>
         <!-- container-fluid.// --> 
       </nav>
-      <!-- <div class="searchSection">
-        <div class="searchIcon"><i class="icon-search"></i></div>
-      </div> -->
+      <div class="searchSection">
+        <div class="searchIcon"><i class="icon icon-search"></i></div>
+      </div>
     </div>
   </div>
 </header>

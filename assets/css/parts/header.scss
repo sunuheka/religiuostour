@@ -65,6 +65,10 @@ header {
 			}
 		}
 	}
+
+	&Socialicons_link {
+		margin-right: 3px;
+	}
 }
 
 .projectxy {
@@ -91,6 +95,15 @@ header {
 	.icon {
 		font-size: 16px;
 		color: $golden;
+
+		&.icon-mail {
+			font-size: 14px;
+			padding-right: 10px;
+		}
+
+		&.icon-time {
+			padding-right: 3px;
+		}
 	}
 }
 
@@ -104,9 +117,9 @@ header {
 .nav {
 	&-link {
 		text-transform: uppercase;
-		font-size: 0.9rem;
-		color: $darkblue;
-		font-weight: 600;
+		font-size: 1rem;
+		color: $dark-color;
+		font-weight: 400;
 
 		@media all and ( max-width: 1400px ) {
 			padding: 0.5rem 0.6rem;
@@ -300,15 +313,11 @@ header {
 }
 
 .searchIcon {
-	width: 40px;
-	height: 40px;
-	border-radius: 5px;
-	background-color: $darkblue;
-
 	@extend .placeCenter;
 
 	.icon-search {
-		color: $white;
+		color: $yellow;
+		font-size: rem-calc( 26 );
 	}
 }
 

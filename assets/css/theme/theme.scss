@@ -40,3 +40,76 @@ ul {
 	transition: all 0.3s linear;
 }
 
+.widget-inner {
+	display: flex;
+	flex-wrap: wrap;
+
+	.offers-item {
+		max-width: 50%;
+		flex: 0 0 50%;
+
+		&:first-child {
+			width: 100%;
+			padding-left: 50%;
+			max-width: 100%;
+			flex: 0 0 100%;
+
+			.item-photo {
+				left: auto;
+				right: 0;
+			}
+		}
+
+		.item-inner {
+			position: relative;
+			z-index: 1;
+			width: 100%;
+			padding-top: 50%;
+			background-color: #fff;
+			display: flex;
+
+			.item-photo,
+			.item-desc {
+				max-width: 50%;
+				flex: 0 0 50%;
+				position: absolute;
+				top: 0;
+			}
+
+			.item-photo {
+				background-size: cover;
+				width: 50%;
+				height: 100%;
+				left: 0;
+			}
+
+			.item-desc {
+				width: 50%;
+				height: 100%;
+				padding: 30px 30px 50px;
+				overflow: hidden;
+			}
+
+			.btn-link {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				z-index: 2;
+				width: 100%;
+				display: block;
+				padding: 0 30px;
+				height: 50px;
+				line-height: 50px;
+				background-color: #fff;
+			}
+		}
+
+		&:nth-child( 4n ),
+		&:nth-child( odd ) {
+			.item-photo {
+				right: 0;
+				left: auto;
+			}
+		}
+	}
+}
