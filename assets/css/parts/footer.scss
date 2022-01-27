@@ -8,7 +8,7 @@
 	}
 
 	.footerTop {
-		padding-top: 200px;
+		//
 	}
 }
 
@@ -204,5 +204,20 @@
 
 	p {
 		margin-bottom: 0;
+	}
+}
+
+.partner {
+	&Item {
+		border-radius: 10px;
+		border-left: 3px solid $golden;
+		border-right: 3px solid $golden;
+		padding: 20px;
+		box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.16 );
+	}
+
+	&List {
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 }

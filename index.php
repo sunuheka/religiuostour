@@ -2,7 +2,7 @@
 
 <body class="home">
     <?php include 'includes/header.php';?>
-    <?php include 'includes/search.php';?>
+    <?php include 'includes/nav.php';?>    
     <?php include 'includes/banner.php';?>
    
 <section class="contentBlock text-center">
@@ -25,6 +25,9 @@
     <?php include 'includes/news-blog.php';?>
     <?php include 'includes/gallery.php';?>
     <?php include 'includes/location.php';?>
+    <?php include 'includes/circuits.php';?>
+    <?php include 'includes/map.php';?>
+    <?php include 'includes/nicci.php';?>
     <?php include 'includes/footer.php';?>
     <?php include 'includes/scripts.php';?>
 </body>

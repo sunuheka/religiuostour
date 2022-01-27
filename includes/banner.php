@@ -5,15 +5,19 @@
                 <div class="swiper-container">
                     <!-- swiper slides -->
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" style="background-image: url('./assets/img/banner.jpg');">
+                        <div class="swiper-slide" ">
+                            <div class="image-layer" style="background-image: url('./assets/img/banner.jpg');"></div>
                             <div class="banner_contents">
-                                <div class="banner_content">
-                                    <h2></h2>
-                                    <a href="#" class="btn btn-outline btn-white btn-with-arrow">read more</a>
-                                </div>
-                                <!-- <div class="banner_image">
-                                    <img src="./assets/img/banner.jpg" alt="banner" />
-                                </div> -->
+                                <h1 class="h1">Religiuos Tourism Between</h1>
+                                <h2 class="h1 textbg">NEPAL and INDIA</h2>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="image-layer" style="background-image: url('./assets/img/monastery.png');"></div>
+                            <div class="banner_contents">
+                                <h1 class="h1">Religiuos Tourism Between</h1>
+                                <h2 class="h1 textbg">NEPAL and INDIA</h2>
                             </div>
                         </div>
                     </div>
@@ -21,8 +25,8 @@
                 </div>
 
                 <!-- next / prev arrows -->
-                <div class="swiper-button-next swiper-button-next-big"></div>
-                <div class="swiper-button-prev swiper-button-prev-big"></div>
+                <div class="swiper-button-next swiper-button-next-big"><span>Next</span></div>
+                <div class="swiper-button-prev swiper-button-prev-big"><span>Prev</span></div>
                 <!-- !next / prev arrows -->
             <!-- </div> -->
         </div>

@@ -4,8 +4,34 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="blockTitle text-center">
-                            <div class="leadTitle">Partner</div>
+                            <div class="leadText">Partner</div>
                             <h2>Our Members</h2>
+                        </div>
+
+                        <div class="partnerList">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="partnerItem">
+                                        <img src="./assets/img/logo.jpg" alt="nicci">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="partnerItem">
+                                        <img src="./assets/img/logo.jpg" alt="nicci">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="partnerItem">
+                                        <img src="./assets/img/logo.jpg" alt="nicci">
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="partnerItem">
+                                        <img src="./assets/img/logo.jpg" alt="nicci">
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
