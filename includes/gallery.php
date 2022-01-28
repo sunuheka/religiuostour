@@ -5,10 +5,10 @@
             <h2 class="h2">Discover The Religious Circuits     </h2>
         </div>
 
-        <div class="row grid">
+        <div class="row grid" id="lightgallery">
             <div class="grid-sizer"></div>
             <div class="col-sm-4 grid-item">
-                <div class="galleryImage">
+                <div class="galleryImage" data-src="./assets/img/image.png">
                     <figure>
                         <img src="./assets/img/image.png" alt="">
                     </figure>
