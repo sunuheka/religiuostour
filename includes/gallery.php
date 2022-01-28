@@ -5,8 +5,9 @@
             <h2 class="h2">Discover The Religious Circuits     </h2>
         </div>
 
-        <div class="row">
-            <div class="col-sm-4">
+        <div class="row grid">
+            <div class="grid-sizer"></div>
+            <div class="col-sm-4 grid-item">
                 <div class="galleryImage">
                     <figure>
                         <img src="./assets/img/image.png" alt="">
@@ -14,7 +15,23 @@
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 grid-item">
+                <div class="galleryImage">
+                    <figure>
+                        <img src="./assets/img/img.png" alt="">
+                    </figure>
+                    <div class="galleryContent">Nepal Buddhist Relegion</div>
+                </div>
+            </div>
+            <div class="col-sm-4 grid-item">
+                <div class="galleryImage">
+                    <figure>
+                        <img src="./assets/img/ram.png" alt="">
+                    </figure>
+                    <div class="galleryContent">Nepal Buddhist Relegion</div>
+                </div>
+            </div>
+            <div class="col-sm-4 grid-item">
                 <div class="galleryImage">
                     <figure>
                         <img src="./assets/img/image.png" alt="">
@@ -22,10 +39,18 @@
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 grid-item">
                 <div class="galleryImage">
                     <figure>
-                        <img src="./assets/img/image.png" alt="">
+                        <img src="./assets/img/img.png" alt="">
+                    </figure>
+                    <div class="galleryContent">Nepal Buddhist Relegion</div>
+                </div>
+            </div>
+            <div class="col-sm-4 grid-item">
+                <div class="galleryImage">
+                    <figure>
+                        <img src="./assets/img/Boudhanath.jpg" alt="">
                     </figure>
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
                 </div>
