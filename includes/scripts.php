@@ -1,7 +1,8 @@
 <script src="assets/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script> -->
-    <link
+
+<link
   rel="stylesheet"
   href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
 />
@@ -16,14 +17,14 @@
     <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
     <script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
     <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script> -->
 
 <script src="assets/js/masonary/masonry.pkgd.js"></script>
 <script src="assets/js/masonary/imagesloaded.pkgd.js"></script>
     <script>
         $(document).ready(function() {       
 
-            $('.filteryear').select2();
+            // $('.filteryear').select2();
             var swiper = new Swiper('.swiper-container', {
                 loop: true,
                 autoplay: false,
@@ -116,7 +117,7 @@
             // set itemSelector so .grid-sizer is not used in layout
             itemSelector: '.grid-item',
             // use element for option
-            columnWidth: '.grid-sizer',
+            columnWidth: '.col-sm-4',
             percentPosition: true
             })
 
