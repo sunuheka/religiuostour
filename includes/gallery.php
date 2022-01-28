@@ -6,54 +6,54 @@
         </div>
 
         <div class="row grid" id="lightgallery">
-            <div class="grid-sizer"></div>
-            <div class="col-sm-4 grid-item">
-                <div class="galleryImage" data-src="./assets/img/image.png">
+            <!-- <div class="grid-sizer"></div> -->
+            <div class="col-sm-4 grid-item" data-src="./assets/img/image.png">
+                <a href="" class="galleryImage">
+                <figure>
+                    <img src="./assets/img/image.png" alt="image">
+                </figure>
+                    <div class="galleryContent">Nepal Buddhist Relegion</div>
+                </a>
+            </div>
+            <div class="col-sm-4 grid-item" data-src="./assets/img/image.png">
+                <a href="" class="galleryImage">
                     <figure>
                         <img src="./assets/img/image.png" alt="">
                     </figure>
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
-                </div>
+                </a>
             </div>
-            <div class="col-sm-4 grid-item">
-                <div class="galleryImage">
-                    <figure>
-                        <img src="./assets/img/img.png" alt="">
-                    </figure>
-                    <div class="galleryContent">Nepal Buddhist Relegion</div>
-                </div>
-            </div>
-            <div class="col-sm-4 grid-item">
-                <div class="galleryImage">
+            <div class="col-sm-4 grid-item" data-src="./assets/img/ram.png">
+                <a href="" class="galleryImage">
                     <figure>
                         <img src="./assets/img/ram.png" alt="">
                     </figure>
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
-                </div>
+                </a>
             </div>
-            <div class="col-sm-4 grid-item">
-                <div class="galleryImage">
+            <div class="col-sm-4 grid-item" data-src="./assets/img/image.png">
+                <a href="" class="galleryImage">
                     <figure>
                         <img src="./assets/img/image.png" alt="">
                     </figure>
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
-                </div>
+                </a>
             </div>
-            <div class="col-sm-4 grid-item">
-                <div class="galleryImage">
+            <div class="col-sm-4 grid-item" data-src="./assets/img/img.png">
+                <a href="" class="galleryImage">
                     <figure>
                         <img src="./assets/img/img.png" alt="">
                     </figure>
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
-                </div>
+                </a>
             </div>
-            <div class="col-sm-4 grid-item">
-                <div class="galleryImage">
+            <div class="col-sm-4 grid-item" data-src="./assets/img/Boudhanath.jpg">
+                <a href="" class="galleryImage">
                     <figure>
                         <img src="./assets/img/Boudhanath.jpg" alt="">
                     </figure>
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
