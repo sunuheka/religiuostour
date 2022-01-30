@@ -50,8 +50,8 @@
 
             var swiper = new Swiper('.swiper-container-small', {
                 loop: true,
-                slidesPerView: 6,
-                spaceBetween: 10,
+                slidesPerView: 2,
+                spaceBetween: 30,
                 autoplay: true,
 
                 breakpoints: {
@@ -65,7 +65,7 @@
                     },
                     1024: {
                         //spaceBetween: 50,
-                        slidesPerView: 5,
+                        slidesPerView: 4,
                     },
                 },
 				navigation: {
