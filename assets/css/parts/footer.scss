@@ -182,7 +182,7 @@
 		}
 
 		&:hover {
-			
+			//
 		}
 	}
 }
@@ -192,6 +192,19 @@
 	&Call,
 	&Mail {
 		display: flex;
+
+		.icon {
+			margin-right: 5px;
+		}
+	}
+
+	&Mail {
+		align-items: center;
+
+		.icon {
+			font-size: 14px;
+			width: 30px;
+		}
 	}
 }
 

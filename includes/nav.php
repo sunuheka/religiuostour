@@ -16,7 +16,16 @@
                 </ul>
               </li>            
               <li class="nav-item"> <a class="nav-link " href="membership.php">About Us</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="gallery.php">Religious Circuits</a> </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="gallery.php" data-bs-toggle="dropdown">Religious Circuits</a> 
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Ramayan Circuit</a></li>
+                    <li><a href="#" class="dropdown-item">Buddhist Circuit</a></li>
+                    <li><a href="#" class="dropdown-item">Mahabharat Circuit</a></li>
+                    <li><a href="#" class="dropdown-item">Sikh Circuit</a></li>
+                    <li><a href="#" class="dropdown-item">Shiv Shakti Circuit</a></li>
+                </ul>
+              </li>
               <li class="nav-item"> <a class="nav-link" href="gallery.php">Gallery</a> </li>
               <li class="nav-item"> <a class="nav-link" href="gallery.php">Contact</a> </li>
           </ul>
