@@ -5,7 +5,7 @@
     <?php include 'includes/nav.php';?>    
     <?php include 'includes/banner.php';?>
    
-<section id="about" class="contentBlock text-center">
+<section class="contentBlock text-center">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-sm-7 wrapper-760">

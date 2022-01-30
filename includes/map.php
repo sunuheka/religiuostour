@@ -1,4 +1,4 @@
-<section class="sectionMap">
+<section id="map" class="sectionMap">
         <div class="container">
             <div class="blockHeading text-center">
                 <div class="leadText">Map</div>

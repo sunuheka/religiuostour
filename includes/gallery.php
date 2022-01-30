@@ -1,4 +1,4 @@
-<section class="sectionGallery">
+<section id="gallery" class="sectionGallery">
     <div class="container">
         <div class="blockHeading text-center">
             <div class="leadText">Gallery</div>

@@ -10,24 +10,24 @@
         <div class="container-fluid">
           <ul class="menu">
               <li class="nav-item dropdown"> 
-                <a class="nav-link dropdown-toggle" href="about.php" data-bs-toggle="dropdown">Home</a>
+                <a class="nav-link dropdown-toggle" href="index.php" data-bs-toggle="dropdown">Home</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="about.php">Introduction</a></li>
                 </ul>
               </li>            
-              <li class="nav-item"> <a class="nav-link " href="membership.php">About Us</a> </li>
+              <li class="nav-item"> <a class="nav-link " href="#about">About Us</a> </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="gallery.php" data-bs-toggle="dropdown">Religious Circuits</a> 
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Religious Circuits</a> 
                 <ul class="dropdown-menu">
-                    <li><a href="#" class="dropdown-item">Ramayan Circuit</a></li>
-                    <li><a href="#" class="dropdown-item">Buddhist Circuit</a></li>
-                    <li><a href="#" class="dropdown-item">Mahabharat Circuit</a></li>
-                    <li><a href="#" class="dropdown-item">Sikh Circuit</a></li>
-                    <li><a href="#" class="dropdown-item">Shiv Shakti Circuit</a></li>
+                    <li><a href="ramayan.php" class="dropdown-item">Ramayan Circuit</a></li>
+                    <li><a href="budhhist.php" class="dropdown-item">Buddhist Circuit</a></li>
+                    <li><a href="mahabharat.php" class="dropdown-item">Mahabharat Circuit</a></li>
+                    <li><a href="sikh.php" class="dropdown-item">Sikh Circuit</a></li>
+                    <li><a href="shivshakti.php" class="dropdown-item">Shiv Shakti Circuit</a></li>
                 </ul>
               </li>
-              <li class="nav-item"> <a class="nav-link" href="gallery.php">Gallery</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="gallery.php">Contact</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#gallery">Gallery</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#map">Contact</a> </li>
           </ul>
           <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
               data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"> 
@@ -38,7 +38,7 @@
             <button class="navbar-toggler icon-cancel-btn" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-cancel navbar-toggler-icon"></span> </button>
             <div class="nav_logo"> <a href="#" class="logo"> <img src="assets/img/logo.jpg" alt=""> </a> </div>
-            <ul class="navbar-nav flex-wrap">
+            <!-- <ul class="navbar-nav flex-wrap">
               <li class="nav-item dropdown"> 
                 <a class="nav-link dropdown-toggle" href="about.php"
                                         data-bs-toggle="dropdown">About</a>
@@ -111,7 +111,7 @@
               <li class="nav-item dropdown"> <a class="nav-link" href="contactus.php">Contact US</a> </li>
               <li class="nav-item dropdown"> <a class="nav-link" href="download.php">Download</a> </li>
               <li class="nav-item dropdown"> <a class="nav-link" href="archive.php">Archive</a> </li>
-            </ul>
+            </ul> -->
           </div>
           <!-- navbar-collapse.// --> 
           
