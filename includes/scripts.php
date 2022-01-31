@@ -99,6 +99,18 @@
                 },
             });
 
+            var swiper = new Swiper('.swiper-container-small2', {
+                loop: true,
+                slidesPerView: 1,
+                spaceBetween: 25,
+                //autoplay: true,
+
+                navigation: {
+                    nextEl: '.swiper-button-next-small2',
+                    prevEl: '.swiper-button-prev-small2',
+                },
+            });
+
             lightGallery(document.getElementById('lightgallery'));
             // lightGallery(document.getElementById('lightgallery1'));
 

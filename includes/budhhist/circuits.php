@@ -1,4 +1,4 @@
-<section class="sectionLocation">
+<section id="circuit" class="sectionLocation">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -19,7 +19,7 @@
                                 <img src="./assets/img/ram.png" alt="">
                             </figure>
                             
-                            <div class="circuitContent"><h3>Buddhist Circuit</h3></div>
+                            <div class="circuitContent"><h3>Ramayan Circuit</h3></div>
                             </div>
                         </div>
                     </div>

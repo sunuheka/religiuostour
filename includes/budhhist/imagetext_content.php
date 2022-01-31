@@ -1,4 +1,4 @@
-<section id="circuit" class="sectionOffers" style="background-image: url('./assets/img/monastery.png');">
+<section class="sectionOffers" style="background-image: url('./assets/img/monastery.png');">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -13,10 +13,11 @@
          <a href="" class="item-inner">
             <div class="item-photo">
                 <img src="./assets/img/Boudhanath.jpg" alt="">
+                <div class="tag"><span class="tagtext">Day 01</span></div>
             </div>
             <div class="item-desc">
-                <h3>Bodh Gaya</h3>
-                <p>Etiam posuere tortor quis nisl maximus placerat. Phasellus in magna ut libero hendrerit molestie. In placerat vulputate mi, ut placerat massa hendrerit ut.</p>
+                <h3>Bodh Gaya Tourism Bodh Gaya Pilgrimage Tour</h3>
+                <p>Bodhgaya is where Buddhism began. All pilgrims and Buddhism followers are fond of this place and the legend attached to it </p>
                 <span class="btn-link">READ MORE</span>
             </div>
         </a>
@@ -25,11 +26,12 @@
         <a href="" class="item-inner">
             <div class="item-photo">
                 <img src="./assets/img/Boudhanath.jpg" alt="">
+                <div class="tag"><span class="tagtext">Day 02</span></div>
             </div>
             <div class="item-desc">
-                <h3>Budhhist Circuit</h3>
-                <p>Etiam posuere tortor quis nisl maximus placerat. Phasellus in magna ut libero hendrerit molestie. In placerat vulputate mi, ut placerat massa hendrerit ut.</p>
-                <span href="" class="btn-link">READ MORE</span>
+                <h3>Bodh Gaya Tourism Bodh Gaya Pilgrimage Tour</h3>
+                <p>Bodhgaya is where Buddhism began. All pilgrims and Buddhism followers are fond of this place and the legend attached to it </p>
+                <span class="btn-link">READ MORE</span>
             </div>
         </a>
     </div>
@@ -38,11 +40,12 @@
         <a href="" class="item-inner">
             <div class="item-photo">
             <img src="./assets/img/mahabharat.jpg" alt="">
+            <div class="tag"><span class="tagtext">Day 03</span></div>
             </div>
             <div class="item-desc">
-                <h3>Mahabharat Circuit</h3>
-                <p>Etiam posuere tortor quis nisl maximus placerat. Phasellus in magna ut libero hendrerit molestie. In placerat vulputate mi, ut placerat massa hendrerit ut.</p>
-                <span href="" class="btn-link">READ MORE</span>
+                <h3>Bodh Gaya Tourism Bodh Gaya Pilgrimage Tour</h3>
+                <p>Bodhgaya is where Buddhism began. All pilgrims and Buddhism followers are fond of this place and the legend attached to it </p>
+                <span class="btn-link">READ MORE</span>
             </div>
         </a>
     </div>
@@ -50,9 +53,11 @@
         <a href="" class="item-inner">
             <div class="item-photo">
                 <img src="./assets/img/Lobby.jpg" alt="">
+                <div class="tag"><span class="tagtext">Day 04</span></div>
             </div>
             <div class="item-desc">
-                <h3>Sikh Circuit</h3><p>Etiam posuere tortor quis nisl maximus placerat. Phasellus in magna ut libero hendrerit molestie. In placerat vulputate mi, ut placerat massa hendrerit ut.</p>
+                <h3>Bodh Gaya Tourism Bodh Gaya Pilgrimage Tour</h3>
+                <p>Bodhgaya is where Buddhism began. All pilgrims and Buddhism followers are fond of this place and the legend attached to it </p>
                 <span class="btn-link">READ MORE</span>
             </div>
         </a>
@@ -62,10 +67,54 @@
         <a href="" class="item-inner">
             <div class="item-photo" >
                 <img src="./assets/img/shivshakti.jpg" alt="">
+                <div class="tag"><span class="tagtext">Day 05</span></div>
             </div>
             <div class="item-desc">
-                <h3>Shiv Shakti Circuit</h3><p>Etiam posuere tortor quis nisl maximus placerat. Phasellus in magna ut libero hendrerit molestie. In placerat vulputate mi, ut placerat massa hendrerit ut.</p>
-                <span href="" class="btn-link">READ MORE</span>
+                <h3>Bodh Gaya Tourism Bodh Gaya Pilgrimage Tour</h3>
+                <p>Bodhgaya is where Buddhism began. All pilgrims and Buddhism followers are fond of this place and the legend attached to it </p>
+                <span class="btn-link">READ MORE</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="offers-item">
+        <a href="" class="item-inner">
+            <div class="item-photo" >
+                <img src="./assets/img/shivshakti.jpg" alt="">
+                <div class="tag"><span class="tagtext">Day 06</span></div>
+            </div>
+            <div class="item-desc">
+                <h3>Bodh Gaya Tourism Bodh Gaya Pilgrimage Tour</h3>
+                <p>Bodhgaya is where Buddhism began. All pilgrims and Buddhism followers are fond of this place and the legend attached to it </p>
+                <span class="btn-link">READ MORE</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="offers-item">
+        <a href="" class="item-inner">
+            <div class="item-photo" >
+                <img src="./assets/img/shivshakti.jpg" alt="">
+                <div class="tag"><span class="tagtext">Day 07</span></div>
+            </div>
+            <div class="item-desc">
+                <h3>Bodh Gaya Tourism Bodh Gaya Pilgrimage Tour</h3>
+                <p>Bodhgaya is where Buddhism began. All pilgrims and Buddhism followers are fond of this place and the legend attached to it </p>
+                <span class="btn-link">READ MORE</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="offers-item">
+        <a href="" class="item-inner">
+            <div class="item-photo" >
+                <img src="./assets/img/shivshakti.jpg" alt="">
+                <div class="tag"><span class="tagtext">Day 08</span></div>
+            </div>
+            <div class="item-desc">
+                <h3>Bodh Gaya Tourism Bodh Gaya Pilgrimage Tour</h3>
+                <p>Bodhgaya is where Buddhism began. All pilgrims and Buddhism followers are fond of this place and the legend attached to it </p>
+                <span class="btn-link">READ MORE</span>
             </div>
         </a>
     </div>

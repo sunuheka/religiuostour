@@ -1,7 +1,7 @@
 <?php include 'includes/metahead.php';?>
 
 <body class="home">
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 
     <?php include 'includes/header.php';?>
     <?php include 'includes/nav.php';?>    

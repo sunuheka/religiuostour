@@ -22,7 +22,9 @@
                         <img src="./assets/img/location.png" alt="">
                     </figure>
                     
-                    <div class="locationContent"><h3>Nepal Buddhist Relegion</h3></div>
+                    <div class="locationContent"><h3>Nepal Buddhist Relegion</h3>
+                    <div class="addicon"><span class="addsign">+</span></div>
+                    </div>
                     </a>
                 </div>
             </div>
@@ -33,7 +35,8 @@
                         <img src="./assets/img/location.png" alt="">
                     </figure>
                     
-                    <div class="locationContent"><h3>Nepal Buddhist Relegion</h3></div>
+                    <div class="locationContent"><h3>Nepal Buddhist Relegion</h3>
+                    <div class="addicon"><span class="addsign">+</span></div></div>
                     </a>
                 </div>
             </div>
@@ -44,7 +47,8 @@
                         <img src="./assets/img/location.png" alt="">
                     </figure>
                     
-                    <div class="locationContent"><h3>Nepal Buddhist Relegion</h3></div>
+                    <div class="locationContent"><h3>Nepal Buddhist Relegion</h3>
+                    <div class="addicon"><span class="addsign">+</span></div></div>
                     </a>
                 </div>
             </div>
@@ -55,7 +59,8 @@
                         <img src="./assets/img/location.png" alt="">
                     </figure>
                     
-                    <div class="locationContent"><h3>Nepal Buddhist Relegion</h3></div>
+                    <div class="locationContent"><h3>Nepal Buddhist Relegion</h3>
+                    <div class="addicon"><span class="addsign">+</span></div></div>
                     </a>
                 </div>
             </div>

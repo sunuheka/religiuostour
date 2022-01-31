@@ -2,7 +2,7 @@
     <div class="container">
         <div class="blockHeading text-center">
             <div class="leadText">Gallery</div>
-            <h2 class="h2">Discover The Budhhist Circuits     </h2>
+            <h2 class="h2">Discover The Budhhist Circuits</h2>
         </div>
 
         <div class="row grid" id="lightgallery">

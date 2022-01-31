@@ -1,4 +1,5 @@
 <header>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <div class="container">
   <div class="headerTop d-flex ">
    
