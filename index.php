@@ -24,7 +24,7 @@
 
 
     <?php include 'includes/imagetext_content.php';?>
-    <?php include 'includes/news-blog.php';?>
+    <?php //include 'includes/news-blog.php';?>
     <?php include 'includes/gallery.php';?>
     <?php include 'includes/location.php';?>
     <!-- <?php //include 'includes/circuits.php';?> -->

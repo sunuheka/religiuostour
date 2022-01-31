@@ -32,8 +32,21 @@ li {
 	color: $smoke;
 }
 
+p + p {
+	margin-top: 20px;
+}
+
 a {
 	text-decoration: none;
+}
+
+a:not( .nav-link  ) {
+	text-decoration: none;
+	color: $yellow;
+
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 ul {
@@ -372,7 +385,11 @@ ul {
 				}
 			}
 		}
+	}
+}
 
+.home {
+	.offers-item {
 		&:nth-child( 4n ),
 		&:nth-child( 4n + 1 ) {
 			.item-photo {
@@ -757,6 +774,69 @@ ul {
 		input,
 		button {
 			border: none;
+		}
+	}
+}
+
+// .ramayan {
+// 	.widget-inner {
+// 		.offers-item {
+// 			padding-left: 0;
+
+// 			.item-inner {
+// 				padding-top: 0;
+
+// 				.item-photo {
+// 					position: relative;
+// 					max-width: 200px;
+// 					flex: 0 0 200px;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+.budhhist {
+	.widget-inner {
+		.offers-item {
+			max-width: 100%;
+			flex: 0 0 100%;
+			margin-bottom: 20px;
+
+			&:first-child {
+				padding-left: 0;
+			}
+
+			.item-inner {
+				flex-direction: row;
+				padding-top: 0;
+
+				.item-photo {
+					width: 25%;
+					height: initial;
+					position: relative;
+					flex: 0 0 25%;
+				}
+
+				.item-desc {
+					max-width: inherit;
+					height: inherit;
+					width: 75%;
+					position: relative;
+					flex: 0 0 75%;
+					padding-bottom: 60px;
+				}
+
+				:hover {
+					text-decoration: none;
+				}
+			}
+
+			&:nth-child( even ) {
+				.item-inner {
+					flex-direction: row-reverse;
+				}
+			}
 		}
 	}
 }

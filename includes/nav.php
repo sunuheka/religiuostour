@@ -26,7 +26,7 @@
                     <li><a href="shivshakti.php" class="dropdown-item">Shiv Shakti Circuit</a></li>
                 </ul>
               </li>
-              <li class="nav-item"> <a class="nav-link" href="#news">News</a> </li>
+              <!-- <li class="nav-item"> <a class="nav-link" href="#news">News</a> </li> -->
               <li class="nav-item"> <a class="nav-link" href="#gallery">Gallery</a> </li>
               <li class="nav-item"> <a class="nav-link" href="#partner">Partner</a> </li>
               <li class="nav-item"> <a class="nav-link" href="#map">Contact</a> </li>
