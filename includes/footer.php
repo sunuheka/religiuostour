@@ -1,5 +1,5 @@
 <footer class="footer">
-        <div class="footerTop">
+        <div id="partner" class="footerTop">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">

@@ -1,9 +1,9 @@
 <?php include 'includes/metahead.php';?>
 
-<body class="home">
+<body class="ramayan">
     <?php include 'includes/header.php';?>
     <?php include 'includes/nav.php';?>    
-    <?php include 'includes/banner.php';?>
+    <?php include 'includes/ramayan/banner.php';?>
    
 <section class="contentBlock text-center">
     <div class="container">
@@ -21,11 +21,11 @@
 </section>
 
 
-    <?php include 'includes/imagetext_content.php';?>
-    <?php include 'includes/news-blog.php';?>
+    <?php include 'includes/ramayan/imagetext_content.php';?>
+    <?php //include 'includes/news-blog.php';?>
     <?php include 'includes/gallery.php';?>
-    <?php include 'includes/location.php';?>
-    <?php include 'includes/circuits.php';?>
+    <?php include 'includes/ramayan/location.php';?>
+    <?php include 'includes/ramayan/circuits.php';?>
     <?php include 'includes/map.php';?>
     <?php include 'includes/nicci.php';?>
     <?php include 'includes/footer.php';?>

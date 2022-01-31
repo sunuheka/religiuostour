@@ -2,6 +2,7 @@
 	font-size: 16px;
 	line-height: 1.7;
 	color: $text-color;
+	scroll-behavior: smooth;
 
 	@media all and ( max-width: 767px ) {
 		font-size: 14px;
@@ -137,10 +138,7 @@ ul {
 		}
 
 		&Left {
-			@media all and ( min-width: 768px ) {
-				max-width: 400px;
-				flex: 0 0 400px;
-			}
+			//
 		}
 	}
 
@@ -162,7 +160,7 @@ ul {
 	}
 
 	.swiper-slide {
-		min-height: calc( 100vh - 174px );
+		min-height: calc( 100vh - 65px );
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -725,5 +723,40 @@ ul {
 		bottom: 0;
 		right: 0;
 		z-index: 10;
+	}
+}
+
+#myBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: $golden; /* Set a background color */
+	color: $white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 50px; /* Rounded corners */
+	font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+	background-color: $yellow; /* Add a dark-grey background on hover */
+}
+
+.searchIcon {
+	cursor: pointer;
+}
+
+.search-section {
+	form {
+		background-color: $white;
+
+		input,
+		button {
+			border: none;
+		}
 	}
 }

@@ -1,6 +1,8 @@
 <?php include 'includes/metahead.php';?>
 
 <body class="home">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <?php include 'includes/header.php';?>
     <?php include 'includes/nav.php';?>    
     <?php include 'includes/banner.php';?>
@@ -25,7 +27,7 @@
     <?php include 'includes/news-blog.php';?>
     <?php include 'includes/gallery.php';?>
     <?php include 'includes/location.php';?>
-    <?php include 'includes/circuits.php';?>
+    <!-- <?php //include 'includes/circuits.php';?> -->
     <?php include 'includes/map.php';?>
     <?php include 'includes/nicci.php';?>
     <?php include 'includes/footer.php';?>

@@ -3,8 +3,8 @@
             <div class="row">
                 <div class="col-sm-12">
                 <div class="blockHeading text-center">
-                    <div class="leadText">Circuits</div>
-                    <h2 class="h2">All Cross Border Religiuos Circuits</h2>
+                    <div class="leadText">Itinerary</div>
+                    <h2 class="h2">Itinerary Tour With Ramayan Special Train</h2>
                 </div>
                 </div>
                 <div class="col-sm-12">

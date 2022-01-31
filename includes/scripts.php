@@ -22,9 +22,7 @@
 <script src="assets/js/masonary/masonry.pkgd.js"></script>
 <script src="assets/js/masonary/imagesloaded.pkgd.js"></script>
     <script>
-        $(document).ready(function() {       
-
-            // $('.filteryear').select2();
+        $(document).ready(function() {  
             var swiper = new Swiper('.swiper-container', {
                 loop: true,
                 autoplay: false,
@@ -102,7 +100,7 @@
             });
 
             lightGallery(document.getElementById('lightgallery'));
-            lightGallery(document.getElementById('lightgallery1'));
+            // lightGallery(document.getElementById('lightgallery1'));
 
             $('.searchIcon').click(function() {
                 $('body').toggleClass('showsearchsection');
@@ -114,17 +112,39 @@
             });
 
             var $grid = $('.grid').masonry({
-            // set itemSelector so .grid-sizer is not used in layout
-            itemSelector: '.grid-item',
-            // use element for option
-            columnWidth: '.col-sm-4',
-            percentPosition: true
+                // set itemSelector so .grid-sizer is not used in layout
+                itemSelector: '.grid-item',
+                // use element for option
+                columnWidth: '.col-sm-4',
+                percentPosition: true
             })
 
             // layout Masonry after each image loads
             $grid.imagesLoaded().progress( function() {
-            $grid.masonry('layout');
+                $grid.masonry('layout');
             });
+
+            
         });
+
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
     </script>
 

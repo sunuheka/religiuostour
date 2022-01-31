@@ -1,4 +1,4 @@
-<section class="sectionNews">
+<section id="news" class="sectionNews">
         <div class="container">
             <div class="blockHeading text-center">
                 <div class="leadText">Blogs</div>
