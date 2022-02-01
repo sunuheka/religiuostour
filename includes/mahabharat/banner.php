@@ -10,7 +10,7 @@
                             <div class="overlay"></div>
                             <div class="banner_contents">
                                 <h1 class="h1">Welcome To</h1>
-                                <h2 class="h1 textbg">Ramayan CIRCUIT</h2>
+                                <h2 class="h1 textbg">MAHABHARAT CIRCUIT</h2>
                             </div>
                         </div>
 
@@ -19,7 +19,7 @@
                             <div class="overlay"></div>
                             <div class="banner_contents">
                                 <h1 class="h1">Explore To</h1>
-                                <h2 class="h1 textbg">Ramayan CIRCUIT</h2>
+                                <h2 class="h1 textbg">MAHABHARAT CIRCUIT</h2>
                             </div>
                         </div>
                     </div>

@@ -12,24 +12,24 @@
                         <div class="swiper-container-small1">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="partnerItem">
+                                    <a href="http://nicci.org/" class="partnerItem">
                                         <img src="./assets/img/logo.jpg" alt="nicci">
-                                    </div>
+</a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="partnerItem">
+                                    <a href="http://nicci.org/" class="partnerItem">
                                         <img src="./assets/img/logo.jpg" alt="nicci">
-                                    </div>
+</a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="partnerItem">
+                                    <a href="http://nicci.org/" class="partnerItem">
                                         <img src="./assets/img/logo.jpg" alt="nicci">
-                                    </div>
+</a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="partnerItem">
+                                    <a href="http://nicci.org/" class="partnerItem">
                                         <img src="./assets/img/logo.jpg" alt="nicci">
-                                    </div>
+</a>
                                 </div>
                             </div>
                             <!-- next / prev arrows -->

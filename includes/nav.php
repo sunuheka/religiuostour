@@ -11,9 +11,6 @@
           <ul class="menu">
               <li class="nav-item dropdown"> 
                 <a class="nav-link dropdown-toggle" href="index.php" data-bs-toggle="dropdown">Home</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.php">Introduction</a></li>
-                </ul>
               </li>            
               <li class="nav-item"> <a class="nav-link " href="#about">About Us</a> </li>
               <li class="nav-item dropdown">

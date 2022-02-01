@@ -22,18 +22,11 @@
 <script src="assets/js/masonary/masonry.pkgd.js"></script>
 <script src="assets/js/masonary/imagesloaded.pkgd.js"></script>
     <script>
-        $(document).ready(function() {  
+        jQuery(document).ready(function() {  
             var swiper = new Swiper('.swiper-container', {
                 loop: true,
-                autoplay: false,
+                autoplay: true,
                 effect: 'fade',
-                fadeEffect: {
-                    crossFade: true
-                },
-
-                autoplay: {
-                    delay: 5000,
-                },
 
                 breakpoints: {
                     767: {
@@ -158,5 +151,25 @@
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
+
+        var header = $("body");
+        jQuery(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            // if (scroll >= 100 && $(this).width() > 769) {
+            if (scroll >= 150) {
+            header.addClass("navbar-fixed-top");
+            } else {
+            header.removeClass('navbar-fixed-top');
+            }
+        });
+
+        var swiper = new Swiper('.swiper-container-video', {
+            loop: true,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
     </script>
 

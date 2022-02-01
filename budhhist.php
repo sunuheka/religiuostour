@@ -30,6 +30,7 @@
     <?php include 'includes/budhhist/imagetext_content.php';?>
     <?php //include 'includes/news-blog.php';?>
     <?php include 'includes/budhhist/gallery.php';?>
+    <?php include 'includes/budhhist/video.php';?>
     <?php include 'includes/budhhist/location.php';?>
     <?php include 'includes/budhhist/circuits.php';?>
     <?php include 'includes/budhhist/map.php';?>
