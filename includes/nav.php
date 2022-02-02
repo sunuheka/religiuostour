@@ -10,7 +10,7 @@
         <div class="container-fluid">
           <ul class="menu">
               <li class="nav-item dropdown"> 
-                <a class="nav-link dropdown-toggle" href="index.php" data-bs-toggle="dropdown">Home</a>
+                <a class="nav-link " href="./" >Home</a>
               </li>            
               <li class="nav-item"> <a class="nav-link " href="#about">About Us</a> </li>
               <li class="nav-item dropdown">

@@ -10,7 +10,7 @@
                 <div class="col-sm-12">
 <div class="widget-inner">
      <div class="offers-item">
-         <a href="" class="item-inner">
+         <a href="ramayan.php" class="item-inner">
             <div class="item-photo">
                 <img src="./assets/img/ramayan.jpg" alt="">
             </div>
@@ -22,7 +22,7 @@
         </a>
     </div> 
     <div class="offers-item">
-        <a href="" class="item-inner">
+        <a href="budhhist.php" class="item-inner">
             <div class="item-photo">
                 <img src="./assets/img/Boudhanath.jpg" alt="">
             </div>
@@ -35,7 +35,7 @@
     </div>
     
     <div class="offers-item">
-        <a href="" class="item-inner">
+        <a href="mahabharat.php" class="item-inner">
             <div class="item-photo">
             <img src="./assets/img/mahabharat.jpg" alt="">
             </div>
@@ -47,7 +47,7 @@
         </a>
     </div>
     <div class="offers-item">
-        <a href="" class="item-inner">
+        <a href="sikh.php" class="item-inner">
             <div class="item-photo">
                 <img src="./assets/img/Lobby.jpg" alt="">
             </div>
@@ -59,7 +59,7 @@
     </div>
 
     <div class="offers-item">
-        <a href="" class="item-inner">
+        <a href="shivshakti.php" class="item-inner">
             <div class="item-photo" >
                 <img src="./assets/img/shivshakti.jpg" alt="">
             </div>
