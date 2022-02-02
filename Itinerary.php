@@ -30,6 +30,84 @@
     </div>
 </section>
 
+<section class="aboutTour" style="background-image: url( './assets/img/white-map.png' );">
+    <div class="container">
+        <div class="blockHeading text-center" style="padding-bottom: 10px;">
+            <div class="leadText">Tour</div>
+            <h2 class="h2">Best Buddhist Pilgrimage Tour</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="tourItem">
+                    <div class="tourImage">
+                        <img src="./assets/img/bodhnath-stupa.jpg" alt="">
+                    </div>
+                    <div class="tourContent">
+                        <h3>Maha Bodhi Temple</h3>
+                        <p>Mahabodhi temple is also known as Bodhgaya Buddha temple. It is made entirely of brick and is one of the few marvels of architecture standing from the Gupta period. In the center is the 50 m high temple the Vajrasana, sacred stupas, and other smaller spiral towers. The balustrades, honeysuckle and geese design moldings, a platform made of sandstone are admired profoundly.</p> <p>It is a pinnacle of Bodhgaya Tourism and inside is a statue of Lord Buddha placed in the same position in which he attained enlightenment. The figure faces east and has a serene look about it. Other than this there is a stone with Buddha’s footsteps and a standing figure which looks upon worshippers on Bodh gaya Pilgrimage as they pray in Bodhgaya Buddha temple.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="tourItem">
+                    <div class="tourImage">
+                        <img src="./assets/img/bodhnath-stupa.jpg" alt="">
+                    </div>
+                    <div class="tourContent">
+                        <h3>Maha Bodhi Temple</h3>
+                        <p>Mahabodhi temple is also known as Bodhgaya Buddha temple. It is made entirely of brick and is one of the few marvels of architecture standing from the Gupta period. In the center is the 50 m high temple the Vajrasana, sacred stupas, and other smaller spiral towers. The balustrades, honeysuckle and geese design moldings, a platform made of sandstone are admired profoundly. It is a pinnacle of Bodhgaya Tourism and inside is a statue of Lord Buddha placed in the same position in which he attained enlightenment. The figure faces east and has a serene look about it. Other than this there is a stone with Buddha’s footsteps and a standing figure which looks upon worshippers on Bodh gaya Pilgrimage as they pray in Bodhgaya Buddha temple.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="tourItem">
+                    <div class="tourImage">
+                        <img src="./assets/img/bodhnath-stupa.jpg" alt="">
+                    </div>
+                    <div class="tourContent">
+                        <h3>Maha Bodhi Temple</h3>
+                        <p>Mahabodhi temple is also known as Bodhgaya Buddha temple. It is made entirely of brick and is one of the few marvels of architecture standing from the Gupta period. In the center is the 50 m high temple the Vajrasana, sacred stupas, and other smaller spiral towers. The balustrades, honeysuckle and geese design moldings, a platform made of sandstone are admired profoundly. It is a pinnacle of Bodhgaya Tourism and inside is a statue of Lord Buddha placed in the same position in which he attained enlightenment. The figure faces east and has a serene look about it. Other than this there is a stone with Buddha’s footsteps and a standing figure which looks upon worshippers on Bodh gaya Pilgrimage as they pray in Bodhgaya Buddha temple.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="tourItem">
+                    <div class="tourImage">
+                        <img src="./assets/img/bodhnath-stupa.jpg" alt="">
+                    </div>
+                    <div class="tourContent">
+                        <h3>Maha Bodhi Temple</h3>
+                        <p>Mahabodhi temple is also known as Bodhgaya Buddha temple. It is made entirely of brick and is one of the few marvels of architecture standing from the Gupta period. In the center is the 50 m high temple the Vajrasana, sacred stupas, and other smaller spiral towers. The balustrades, honeysuckle and geese design moldings, a platform made of sandstone are admired profoundly. It is a pinnacle of Bodhgaya Tourism and inside is a statue of Lord Buddha placed in the same position in which he attained enlightenment. The figure faces east and has a serene look about it. Other than this there is a stone with Buddha’s footsteps and a standing figure which looks upon worshippers on Bodh gaya Pilgrimage as they pray in Bodhgaya Buddha temple.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="tourItem">
+                    <div class="tourImage">
+                        <img src="./assets/img/bodhnath-stupa.jpg" alt="">
+                    </div>
+                    <div class="tourContent">
+                        <h3>Maha Bodhi Temple</h3>
+                        <p>Mahabodhi temple is also known as Bodhgaya Buddha temple. It is made entirely of brick and is one of the few marvels of architecture standing from the Gupta period. In the center is the 50 m high temple the Vajrasana, sacred stupas, and other smaller spiral towers. The balustrades, honeysuckle and geese design moldings, a platform made of sandstone are admired profoundly. It is a pinnacle of Bodhgaya Tourism and inside is a statue of Lord Buddha placed in the same position in which he attained enlightenment. The figure faces east and has a serene look about it. Other than this there is a stone with Buddha’s footsteps and a standing figure which looks upon worshippers on Bodh gaya Pilgrimage as they pray in Bodhgaya Buddha temple.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="tourItem">
+                    <div class="tourImage">
+                        <img src="./assets/img/bodhnath-stupa.jpg" alt="">
+                    </div>
+                    <div class="tourContent">
+                        <h3>Maha Bodhi Temple</h3>
+                        <p>Mahabodhi temple is also known as Bodhgaya Buddha temple. It is made entirely of brick and is one of the few marvels of architecture standing from the Gupta period. In the center is the 50 m high temple the Vajrasana, sacred stupas, and other smaller spiral towers. The balustrades, honeysuckle and geese design moldings, a platform made of sandstone are admired profoundly. It is a pinnacle of Bodhgaya Tourism and inside is a statue of Lord Buddha placed in the same position in which he attained enlightenment. The figure faces east and has a serene look about it. Other than this there is a stone with Buddha’s footsteps and a standing figure which looks upon worshippers on Bodh gaya Pilgrimage as they pray in Bodhgaya Buddha temple.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <?php //include 'includes/budhhist/imagetext_content.php';?>
     <?php //include 'includes/news-blog.php';?>
