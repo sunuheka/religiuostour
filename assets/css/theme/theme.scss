@@ -315,6 +315,7 @@ ul {
 	background-position: top center;
 	background-size: cover;
 	padding-top: 60px;
+	background-attachment: fixed;
 
 	.blockHeading {
 		margin-bottom: 60px;
@@ -428,21 +429,21 @@ ul {
 	}
 }
 
-// .home {
-.offers-item {
-	&:nth-child( 4n ),
-	&:nth-child( 4n + 1 ) {
-		.item-photo {
-			right: 0;
-			left: auto !important;
-		}
+.home {
+	.offers-item {
+		&:nth-child( 4n ),
+		&:nth-child( 4n + 1 ) {
+			.item-photo {
+				right: 0;
+				left: auto !important;
+			}
 
-		.item-inner {
-			flex-direction: row;
+			.item-inner {
+				flex-direction: row;
+			}
 		}
 	}
 }
-//}
 
 .sectionNews {
 	background-color: #f5f5f5;
@@ -868,65 +869,70 @@ ul {
 // 	}
 // }
 
-.budhhist {
+.budhhist,
+.ramayan,
+.budhhist,
+.sikh,
+.shivshakti,
+.mahabharat {
 	.sectionOffers {
 		padding-bottom: 40px;
 	}
 
-	// .widget-inner {
-	// 	.offers-item {
-	// 		max-width: 100%;
-	// 		flex: 0 0 100%;
-	// 		margin-bottom: 20px;
+	.widget-inner {
+		.offers-item {
+			max-width: 100%;
+			flex: 0 0 100%;
+			margin-bottom: 20px;
 
-	// 		&:first-child {
-	// 			padding-left: 0;
-	// 		}
+			&:first-child {
+				padding-left: 0;
+			}
 
-	// 		&:last-child {
-	// 			background-color: transparent;
+			&:last-child {
+				background-color: transparent;
 
-	// 			&:before {
-	// 				display: none;
-	// 			}
-	// 		}
+				&:before {
+					display: none;
+				}
+			}
 
-	// 		.item-inner {
-	// 			flex-direction: row;
-	// 			padding-top: 0;
+			.item-inner {
+				flex-direction: row;
+				padding-top: 0;
 
-	// 			&:hover {
-	// 				text-decoration: none;
-	// 			}
+				&:hover {
+					text-decoration: none;
+				}
 
-	// 			.item-photo {
-	// 				width: 25%;
-	// 				height: initial;
-	// 				position: relative;
-	// 				flex: 0 0 25%;
-	// 			}
+				.item-photo {
+					width: 25%;
+					height: initial;
+					position: relative;
+					flex: 0 0 25%;
+				}
 
-	// 			.item-desc {
-	// 				max-width: inherit;
-	// 				height: inherit;
-	// 				width: 75%;
-	// 				position: relative;
-	// 				flex: 0 0 75%;
-	// 				padding-bottom: 60px;
-	// 			}
+				.item-desc {
+					max-width: inherit;
+					height: inherit;
+					width: 75%;
+					position: relative;
+					flex: 0 0 75%;
+					padding-bottom: 60px;
+				}
 
-	// 			:hover {
-	// 				text-decoration: none;
-	// 			}
-	// 		}
+				:hover {
+					text-decoration: none;
+				}
+			}
 
-	// 		&:nth-child( even ) {
-	// 			.item-inner {
-	// 				flex-direction: row-reverse;
-	// 			}
-	// 		}
-	// 	}
-	// }
+			&:nth-child( even ) {
+				.item-inner {
+					flex-direction: row-reverse;
+				}
+			}
+		}
+	}
 }
 
 .tag {
@@ -1113,5 +1119,122 @@ section.sectionInnerBanner {
 		h3 {
 			color: $yellow;
 		}
+	}
+}
+
+.itinerary {
+	.contentBlock {
+		.left-col {
+			padding-right: 10%;
+		}
+
+		.contentBlockImage,
+		.contentBlockVideo {
+			img {
+				max-width: 400px;
+				min-height: 400px;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.contentBlockVideo {
+			img {
+				max-width: 500px;
+			}
+
+			.videoPopup {
+				position: fixed;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba( 0, 0, 0, 0.5 );
+				
+				div {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+			}
+
+			.videoThumbnail {
+				text-align: right;
+				margin-top: -30%;
+				position: relative;
+			}
+
+			&.showvideo {
+				.videoPopup {
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+.btn-play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+
+	.btn {
+		font-weight: 600;
+		font-size: 14px;
+		font-family: $font-family-base;
+		color: $white;
+
+		&:before {
+			content: '';
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 20px 0 20px 34.6px;
+			border-color: transparent transparent transparent #fff;
+			position: absolute;
+			margin-top: -15px;
+			margin-left: -15px;
+			z-index: 2;
+			background: none !important;
+			top: 13px;
+			right: -43px;
+			left: auto;
+			transition: width .4s;
+		}
+
+		&:after {
+			content: '';
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			background: #fff;
+			border-radius: 50%;
+			animation: ping 0.8s ease-in-out infinite both;
+			top: -33px;
+			right: -69px;
+			left: auto;
+		}
+	}
+}
+
+@keyframes ping {
+	0% {
+		-webkit-transform: scale( 0.2 );
+		transform: scale( 0.2 );
+		opacity: 0.8;
+	}
+
+	80% {
+		-webkit-transform: scale( 1.2 );
+		transform: scale( 1.2 );
+		opacity: 0;
+	}
+
+	100% {
+		-webkit-transform: scale( 2.2 );
+		transform: scale( 2.2 );
+		opacity: 0;
 	}
 }

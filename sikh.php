@@ -11,7 +11,7 @@
             <div class="col-sm-8 ">
                 <div class="blockHeading">
                     <div class="leadText">Shortly About Us</div>
-                    <h2 class="h3">Welcome to sikh Religious Circuits</h2>
+                    <h2 class="h3">Welcome to Sikh Religious Circuits</h2>
                 </div>
                 <p>In the Mahaparinirvana sutra, the Buddha tells his followers that they can attain merit and a noble rebirth by going on pilgrimage to the places where he was born Lumbini, gained enlightenment <a href="">Bodhgaya</a> , first taught <a href="">Sarnath</a>, and attained Nirvana <a href="">Kushinagar</a> .</p>
 
