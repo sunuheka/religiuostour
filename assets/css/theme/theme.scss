@@ -1058,7 +1058,8 @@ ul {
 
 section.sectionInnerBanner {
 	position: relative;
-	min-height: 95vh;
+	height: 95vh;
+	max-height: 650px;
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -1178,6 +1179,24 @@ section.sectionInnerBanner {
 		height: 150px;
 		overflow: hidden;
 		margin-bottom: 5px;
+	}
+}
+
+.aboutTour {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f6f6f6;
+	background-size: cover;
+}
+
+.tour {
+	&Item {
+		box-shadow: 0 0 6px 3px rgba( 0, 0, 0, 0.1 );
+		margin-bottom: 30px;
+	}
+
+	&Image {
+		height: 250px;
 
 		img {
 			width: 100%;
@@ -1198,5 +1217,14 @@ section.sectionInnerBanner {
 	p.tenuretext {
 		font-size: 14px;
 		color: $golden;
+	}
+
+	&Content {
+		padding: 15px 20px 30px;
+		background-color: $white;
+
+		h3 {
+			color: $yellow;
+		}
 	}
 }
