@@ -1081,3 +1081,122 @@ section.sectionInnerBanner {
 		color: $white;
 	}
 }
+
+.fillBg {
+	background-color: #efefef;
+}
+
+.swiper-container-list {
+	overflow: hidden;
+	padding-bottom: 100px;
+	padding-top: 30px;
+
+	.swiper-slide {
+		background-color: #fff;
+		box-shadow: 3px 5px 15px rgba( 86, 68, 169, 0.1 );
+	}
+
+	.personsSocialicons {
+		position: absolute;
+		bottom: -10px;
+		left: 50%;
+		opacity: 0;
+		visibility: hidden;
+		transform: translate( -50%, 0 );
+		transition: all 0.3s linear;
+		background-color: $white;
+		border-radius: 4px;
+		padding: 5px;
+		white-space: nowrap;
+	}
+
+	.imageWrapper {
+		position: relative;
+		height: 100px;
+		width: 100px;
+		border-radius: 50%;
+		margin: 0 auto 10px;
+		overflow: hidden;
+	}
+
+	.listPersons {
+		background: #fff;
+		border-radius: 4px;
+		padding: 20px 30px;
+		display: inline-block;
+		height: 100%;
+
+		&:hover {
+			text-decoration: none;
+
+			.personsSocialicons {
+				opacity: 1;
+				visibility: visible;
+				transform: translate( -50%, -70% );
+			}
+		}
+
+		&Detail {
+			padding-top: 10px;
+			padding-bottom: 10px;
+
+			h3 {
+				margin-bottom: 12px;
+				color: $yellow;
+			}
+
+			h5 {
+				color: $golden;
+				font-family: $font-family-base;
+				margin-bottom: 12px;
+			}
+		}
+	}
+
+	.swiper-pagination-bullets {
+		bottom: 30px;
+	}
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background-color: $yellow;
+}
+
+.sectionExperts {
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.swiper-container-experts {
+	.slidersmall_contents {
+		background: #fff;
+		text-align: center;
+		box-shadow: 0 0 5px 0 rgba( 2, 2, 2, 0.1 );
+	}
+
+	.slidersmall_image {
+		height: 150px;
+		overflow: hidden;
+		margin-bottom: 5px;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.slidersmall_content {
+		padding: 10px;
+		padding-bottom: 20px;
+
+		h4 {
+			margin-bottom: 10px;
+		}
+	}
+
+	p.tenuretext {
+		font-size: 14px;
+		color: $golden;
+	}
+}

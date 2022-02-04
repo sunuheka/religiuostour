@@ -39,6 +39,6 @@
     </div>
 </div>
 <!-- Add Pagination -->
-<div class="swiper-pagination"></div>
+<div class="swiper-pagination swiper-pagination-video"></div>
 </div>
 </section>
