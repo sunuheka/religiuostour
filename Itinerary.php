@@ -23,24 +23,24 @@
       </div>
 
       <div class="col-sm-6 right-col">
-          <div class="contentBlockImage">
+          <!-- <div class="contentBlockImage">
               <figure><img src="./assets/img/bodhnath-stupa.jpg" alt=""></figure>
-          </div>
+          </div> -->
           <div class="contentBlockVideo">
-            <div class="videoThumbnail"><img src="./assets/img/iliter-2.jpg" alt="">
-                <div class="btn-play">
-                    <!-- <a class="btn circle-button  lightbox mfp-iframe " href="https://www.youtube.com/watch?v=j_-2dUvlEdY"> -->
+            <div class="videoThumbnail">
+                <iframe width="500" height="408" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                <!-- <div class="btn-play">
                     <a class="btn circle-button" href="javascript:void();">
                     WATCH VIDEO</a>
-                </div>
+                </div> -->
             </div>            
 
-            <div class="videoPopup" style="display: none;">
+            <!-- <div class="videoPopup" style="display: none;">
                 <div class="iframeWrapper">
                     <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
                     <div class="btn-close">X</div>
                 </div>
-            </div>
+            </div> -->
           </div>
       </div>
     </div>
