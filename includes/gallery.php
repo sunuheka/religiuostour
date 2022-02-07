@@ -5,9 +5,9 @@
             <h2 class="h2">Discover The Religious Circuits     </h2>
         </div>
 
-        <div class="row grid" id="lightgallery">
+        <div class="row" id="lightgallery">
             <!-- <div class="grid-sizer"></div> -->
-            <div class="col-sm-4 grid-item" data-src="./assets/img/image.png">
+            <div class="col-sm-4" data-src="./assets/img/image.png">
                 <a href="" class="galleryImage">
                 <figure>
                     <img src="./assets/img/image.png" alt="image">
@@ -15,7 +15,7 @@
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
                 </a>
             </div>
-            <div class="col-sm-4 grid-item" data-src="./assets/img/image.png">
+            <div class="col-sm-4" data-src="./assets/img/image.png">
                 <a href="" class="galleryImage">
                     <figure>
                         <img src="./assets/img/image.png" alt="">
@@ -23,7 +23,7 @@
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
                 </a>
             </div>
-            <div class="col-sm-4 grid-item" data-src="./assets/img/ram.png">
+            <div class="col-sm-4" data-src="./assets/img/ram.png">
                 <a href="" class="galleryImage">
                     <figure>
                         <img src="./assets/img/ram.png" alt="">
@@ -31,7 +31,7 @@
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
                 </a>
             </div>
-            <div class="col-sm-4 grid-item" data-src="./assets/img/image.png">
+            <div class="col-sm-4" data-src="./assets/img/image.png">
                 <a href="" class="galleryImage">
                     <figure>
                         <img src="./assets/img/image.png" alt="">
@@ -39,7 +39,7 @@
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
                 </a>
             </div>
-            <div class="col-sm-4 grid-item" data-src="./assets/img/img.png">
+            <div class="col-sm-4" data-src="./assets/img/img.png">
                 <a href="" class="galleryImage">
                     <figure>
                         <img src="./assets/img/img.png" alt="">
@@ -47,7 +47,7 @@
                     <div class="galleryContent">Nepal Buddhist Relegion</div>
                 </a>
             </div>
-            <div class="col-sm-4 grid-item" data-src="./assets/img/Boudhanath.jpg">
+            <div class="col-sm-4" data-src="./assets/img/Boudhanath.jpg">
                 <a href="" class="galleryImage">
                     <figure>
                         <img src="./assets/img/Boudhanath.jpg" alt="">

@@ -1,13 +1,13 @@
 <script src="assets/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
 
-<link
+<!-- <link
   rel="stylesheet"
   href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-/>
+/> -->
 
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
     <!-- <script src="assets/js/lightgallery.js"></script> -->
     <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
     <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
@@ -41,9 +41,9 @@
 
             var swiper = new Swiper('.swiper-container-small', {
                 loop: true,
-                slidesPerView: 2,
+                slidesPerView: 4,
                 spaceBetween: 30,
-                autoplay: true,
+                //autoplay: true,
 
                 breakpoints: {
                     640: {
@@ -103,6 +103,68 @@
                     prevEl: '.swiper-button-prev-small2',
                 },
             });
+                        
+
+            var swiper = new Swiper('.swiper-container-list', {
+                loop: true,
+                slidesPerView: 3,
+                spaceBetween: 30,
+                autoplay: true,
+
+                breakpoints: {
+                    365: {
+                        slidesPerView: 1,
+                    },
+                    640: {
+                        slidesPerView: 2,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                    },
+                },
+
+                pagination: {
+                    el: '.swiper-pagination-list',
+                    clickable: true,
+                },
+            });
+
+            var swiper = new Swiper('.swiper-container-experts', {
+                loop: true,
+                slidesPerView: 3,
+                spaceBetween: 25,
+                autoplay: true,
+
+                breakpoints: {
+                    365: {
+                        slidesPerView: 1,
+                    },
+                    640: {
+                        slidesPerView: 1,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                    },
+                    1024: {
+                        //spaceBetween: 50,
+                        slidesPerView: 2,
+                    },
+                },
+				// navigation: {
+                //     nextEl: '.swiper-button-next-small1',
+                //     prevEl: '.swiper-button-prev-small1',
+                // },
+            });
+
+            var swiper = new Swiper('.swiper-container-video', {
+                loop: true,
+                slidesPerView: 1,
+                pagination: {
+                    el: '.swiper-pagination-video',
+                    clickable: true,
+                },
+            });
+            
 
             lightGallery(document.getElementById('lightgallery'));
             // lightGallery(document.getElementById('lightgallery1'));

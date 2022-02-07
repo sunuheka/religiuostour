@@ -2,7 +2,6 @@
 
 <body class="budhhist itinerary">
 <?php include 'includes/header.php';?>
-<?php include 'includes/nav.php';?>
 <section class="sectionInnerBanner" style="background-image: url('./assets/img/about-us.jpg');">
   <div class="overlay"></div>
   <div class="innerBannerContent">
@@ -31,14 +30,16 @@
             <div class="videoThumbnail"><img src="./assets/img/iliter-2.jpg" alt="">
                 <div class="btn-play">
                     <!-- <a class="btn circle-button  lightbox mfp-iframe " href="https://www.youtube.com/watch?v=j_-2dUvlEdY"> -->
-                    <a class="btn circle-button  lightbox mfp-iframe " href="javascript:void();">
+                    <a class="btn circle-button" href="javascript:void();">
                     WATCH VIDEO</a>
                 </div>
             </div>            
 
             <div class="videoPopup" style="display: none;">
-             <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
-                <div class="btn-close">X</div>
+                <div class="iframeWrapper">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                    <div class="btn-close">X</div>
+                </div>
             </div>
           </div>
       </div>
@@ -103,6 +104,7 @@
         </div>
     </div>
 </section>
+
 <?php include 'includes/budhhist/video.php';?>
 <section id="map" class="sectionMap">
         
@@ -117,5 +119,6 @@
 <?php //include 'includes/nicci.php';?>
 <?php include 'includes/footer.php';?>
 <?php include 'includes/scripts.php';?>
+
 </body>
 </html>

@@ -1,10 +1,12 @@
 
 <div class="navWrapper">
-    <div class="container">
+    <!-- <div class="container"> -->
     <div class="navContent d-flex align-items-center justify-content-between">
     <div class="navContentLeft"> <a href="./" class="logo"> 
-      <!-- <img src="assets/img/logo.jpg" alt="LOGO"> -->
-      LOGO </a> </div>
+      <img src="assets/img/religious-logo.jpg" alt="LOGO">
+        <div class="logotext">Cross Border Religious & <br/> Spiritual Circuits Locations</div>
+      </a> 
+    </div>
     <div class="navContentRight d-flex align-items-center">
       <nav class="navbar ">
         <div class="container-fluid">
@@ -23,10 +25,16 @@
                     <li><a href="shivshakti.php" class="dropdown-item">Shiv Shakti Circuit</a></li>
                 </ul>
               </li>
-              <!-- <li class="nav-item"> <a class="nav-link" href="#news">News</a> </li> -->
+              <li class="nav-item"> <a class="nav-link" href="tour.php">Tour Packages</a> </li>
               <li class="nav-item"> <a class="nav-link" href="#gallery">Gallery</a> </li>
               <li class="nav-item"> <a class="nav-link" href="#partner">Partner</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="#map">Contact</a> </li>
+              <li class="nav-item dropdown"> 
+                <a class="nav-link" href="#">Contact</a> 
+                <ul class="dropdown-menu">
+                    <li><a href="ramayan.php" class="dropdown-item">NICC</a></li>
+                    <li><a href="budhhist.php" class="dropdown-item">Experts</a></li>                    
+                </ul>
+              </li>
           </ul>
           <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
               data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"> 
@@ -121,7 +129,7 @@
         <div class="searchIcon"><i class="icon icon-search"></i></div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
   </div>
 
   <?php include 'includes/search.php';?>

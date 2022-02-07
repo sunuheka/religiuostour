@@ -2,7 +2,7 @@
 
 <body class="ramayan">
     <?php include 'includes/header.php';?>
-    <?php include 'includes/nav.php';?>    
+    <?php //include 'includes/nav.php';?>    
     <?php include 'includes/ramayan/banner.php';?>
    
 <section class="contentBlock text-center">

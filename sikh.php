@@ -2,7 +2,7 @@
 
 <body class="sikh">
     <?php include 'includes/header.php';?>
-    <?php include 'includes/nav.php';?>    
+    <?php //include 'includes/nav.php';?>    
     <?php include 'includes/sikh/banner.php';?>
    
 <section id="about" class="contentBlock text-center">

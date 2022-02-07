@@ -1,6 +1,6 @@
 <header>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<div class="container">
+<!-- <div class="container">
   <div class="headerTop d-flex ">
    
     <div class="headerTopLeft"> 
@@ -18,6 +18,9 @@
        <a href="callto:" class="ml-3">+099 12345678</a>
     </div>
   </div>
-  </div>
+  </div> -->
+
+  <?php include 'includes/nav.php';?>    
+
 
 </header>

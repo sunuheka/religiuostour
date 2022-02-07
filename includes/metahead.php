@@ -15,16 +15,20 @@
 <link href="assets/dist/style.min.css?ver=0.0.1" rel="stylesheet" >
 <title>Relegius Circuit</title>
 <style>
-    input {
+  .navContent {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .menu li.dropdown:hover>.dropdown-menu {
+    z-index: 12;
+  }
+input {
   position: absolute;
   opacity: 0;
   z-index: -1;
 }
  /* Accordion styles */
 .tabs {
-  /* border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5); */
   max-width: 780px;
   margin: auto;
 }
@@ -95,6 +99,35 @@ input:checked + .tab-label::after {
 input:checked ~ .tab-content {
   max-height: 100vh;
   padding: 1em;
+}
+.experts_circuit {
+    background: white;
+    padding: 5px;
+    text-align: center;
+}
+.two_experts {
+    display: flex;
+}
+.swiper-container-experts .slidersmall_contents {
+  padding-top: 20px;
+}
+.swiper-container-experts .slidersmall_contents {
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+.swiper-container-experts .experts_circuit {
+  box-shadow: 0 0 5px 0 rgb(2, 2, 2, 0.1);
+}
+.swiper-container-experts .experts_circuit h4 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  color: #e19c1e;
+}
+.widget-inner .offers-item .item-inner .item-desc {
+    padding: 15px 20px 40px;
+}
+.widget-inner .offers-item .item-inner .btn-link {
+  padding-left: 20px;
 }
 </style>
 </head>

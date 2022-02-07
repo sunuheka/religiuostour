@@ -2,7 +2,7 @@
 
 <body class="mahabharat">
     <?php include 'includes/header.php';?>
-    <?php include 'includes/nav.php';?>    
+    <?php //include 'includes/nav.php';?>    
     <?php include 'includes/mahabharat/banner.php';?>
    
 <section id="about" class="contentBlock text-center">

@@ -2,7 +2,7 @@
 
 <body class="shivshakti">
     <?php include 'includes/header.php';?>
-    <?php include 'includes/nav.php';?>    
+    <?php //include 'includes/nav.php';?>    
     <?php include 'includes/shivshakti/banner.php';?>
    
 <section id="about" class="contentBlock text-center">
