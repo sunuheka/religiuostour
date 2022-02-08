@@ -1,6 +1,6 @@
 <?php include 'includes/metahead.php';?>
 
-<body class="budhhist">
+<body class="budhhist home">
     <?php include 'includes/header.php';?>
     <?php //include 'includes/nav.php';?>    
     <?php include 'includes/budhhist/banner.php';?>

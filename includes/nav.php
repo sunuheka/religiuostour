@@ -8,8 +8,7 @@
       </a> 
     </div>
     <div class="navContentRight d-flex align-items-center">
-      <nav class="navbar ">
-        <div class="container-fluid">
+      <nav class="navbar ">        
           <ul class="menu">
               <li class="nav-item dropdown"> 
                 <a class="nav-link " href="./" >Home</a>
@@ -18,11 +17,11 @@
               <li class="nav-item dropdown">
                 <a class="nav-link " href="#circuit" >Religious Circuits</a> 
                 <ul class="dropdown-menu">
-                    <li><a href="ramayan.php" class="dropdown-item">Ramayan Circuit</a></li>
+                    <li><a href="budhhist.php" class="dropdown-item">Ramayan Circuit</a></li>
                     <li><a href="budhhist.php" class="dropdown-item">Buddhist Circuit</a></li>
-                    <li><a href="mahabharat.php" class="dropdown-item">Mahabharat Circuit</a></li>
-                    <li><a href="sikh.php" class="dropdown-item">Sikh Circuit</a></li>
-                    <li><a href="shivshakti.php" class="dropdown-item">Shiv Shakti Circuit</a></li>
+                    <li><a href="budhhist.php" class="dropdown-item">Mahabharat Circuit</a></li>
+                    <li><a href="budhhist.php" class="dropdown-item">Sikh Circuit</a></li>
+                    <li><a href="budhhist.php" class="dropdown-item">Shiv Shakti Circuit</a></li>
                 </ul>
               </li>
               <li class="nav-item"> <a class="nav-link" href="tour.php">Tour Packages</a> </li>
@@ -31,99 +30,52 @@
               <li class="nav-item dropdown"> 
                 <a class="nav-link" href="#">Contact</a> 
                 <ul class="dropdown-menu">
-                    <li><a href="ramayan.php" class="dropdown-item">NICC</a></li>
-                    <li><a href="budhhist.php" class="dropdown-item">Experts</a></li>                    
+                    <li><a href="#" class="dropdown-item">NICC</a></li>
+                    <li><a href="#" class="dropdown-item">Experts</a></li>                    
                 </ul>
               </li>
           </ul>
-          <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
               data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"> 
               <span class="fas fa-align-right navbar-toggler-icon"></span> 
           </button>
           <div class="body_overlay"></div>
           <div class="collapse navbar-collapse" id="main_nav">
-            <button class="navbar-toggler icon-cancel-btn" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-cancel navbar-toggler-icon"></span> </button>
-            <div class="nav_logo"> <a href="#" class="logo"> <img src="assets/img/logo.jpg" alt=""> </a> </div>
-            <!-- <ul class="navbar-nav flex-wrap">
+            <button class="navbar-toggler icon-cancel-btn" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-cancel navbar-toggler-icon"></span> </button>
+            <!-- <div class="nav_logo"> <a href="#" class="logo"> <img src="assets/img/logo.jpg" alt=""> </a> </div> -->
+            <ul class="navbar-nav flex-wrap">
               <li class="nav-item dropdown"> 
-                <a class="nav-link dropdown-toggle" href="about.php"
-                                        data-bs-toggle="dropdown">About</a>
+                <a class="nav-link " href="./" >Home</a>
+              </li>            
+              <li class="nav-item"> <a class="nav-link " href="#about">About Us</a> </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#circuit" >Religious Circuits</a> 
                 <input type="checkbox" class="check-drop" />
-                <span class="icon-right-small drop-arrow"></span>
+                <span class="icon-arrow drop-arrow"></span>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.php">Introduction</a></li>
-                  <li><a class="dropdown-item" href="benefits.php">Benefits &amp; Services</a></li>
-                  <li><a class="dropdown-item" href="executive-commitee.php">Executive Committee</a></li>
-                  <li><a class="dropdown-item" href="organization-secretariat.php">Organization &amp;
-                    Secretariat</a></li>
-                  <li><a class="dropdown-item" href="working-commitee.php">Working Committees</a></li>
-                  <li class="nav-item dropdown"> 
-                    <a class="dropdown-item dropdown-toggle nav-link2"
-                                        data-bs-toggle="dropdown"
-                                                href="">Chapters</a>
-                    <input type="checkbox" class="check-drop" />
-                    <span class="icon-right-small drop-arrow"></span>
-                    <ul class="submenu2 dropdown-menu">
-                      <li><a class="dropdown-item" href="easternregion.php">Eastern
-                        Region</a></li>
-                      <li><a class="dropdown-item" href="about.php">Western Region</a></li>
-                      <li><a class="dropdown-item" href="about.php">Mid Region</a></li>
-                    </ul>
-                  </li>
-                  <li> <a class="dropdown-item" href="secretariat.php">Secretariat</a> </li>
+                    <li><a href="budhhist.php" class="dropdown-item">Ramayan Circuit</a></li>
+                    <li><a href="budhhist.php" class="dropdown-item">Buddhist Circuit</a></li>
+                    <li><a href="budhhist.php" class="dropdown-item">Mahabharat Circuit</a></li>
+                    <li><a href="budhhist.php" class="dropdown-item">Sikh Circuit</a></li>
+                    <li><a href="budhhist.php" class="dropdown-item">Shiv Shakti Circuit</a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="news.php" data-bs-toggle="dropdown"> Business News/Events </a>
+              <li class="nav-item"> <a class="nav-link" href="tour.php">Tour Packages</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#gallery">Gallery</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#partner">Partner</a> </li>
+              <li class="nav-item dropdown"> 
+                <a class="nav-link" href="#">Contact</a>
                 <input type="checkbox" class="check-drop" />
-                <span class="icon-right-small drop-arrow"></span>
+                <span class="icon-arrow drop-arrow"></span> 
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="news.php">NCCI News and Events</a></li>
-                  <li><a class="dropdown-item" href="news.php">Business News</a></li>
-                  <li><a class="dropdown-item" href="news.php">Press Release</a></li>
+                    <li><a href="#" class="dropdown-item">NICC</a></li>
+                    <li><a href="#" class="dropdown-item">Experts</a></li>                    
                 </ul>
               </li>
-              <li class="nav-item dropdown"> <a class="nav-link " href="membership.php" data-bs-toggle="dropdown">Business
-                Members</a> </li>
-              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="resources.php"
-                                        data-bs-toggle="dropdown">Resources</a>
-                <input type="checkbox" class="check-drop" />
-                <span class="icon-right-small drop-arrow"></span>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="factsheet.php">Fact Sheet</a></li>
-                  <li><a class="dropdown-item" href="tradestatistics.php">Trade Statistics</a></li>
-                  <li><a class="dropdown-item" href="policy-highlight.php">Policy Highlights</a></li>
-                  <li><a class="dropdown-item" href="treaties.php">Treaties</a></li>
-                  <li><a class="dropdown-item" href="fdi-data.php">FDI Data</a></li>
-                  <li><a class="dropdown-item" href="https://www.nicci.org/pdf/Tourism%20statistics%20of%20Nepal_2014-15.pdf">Tourism Scenario,2014 & 2015 </a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Newsletter</a>
-                <input type="checkbox" class="check-drop" />
-                <span class="icon-right-small drop-arrow"></span>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="e-news.php">e-News Flash</a></li>
-                  <li><a class="dropdown-item" href="newsletter.php">Newsletter</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="honour.php" data-bs-toggle="dropdown">Honour to
-                NICCI</a>
-                <input type="checkbox" class="check-drop" />
-                <span class="icon-right-small drop-arrow"></span>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="honour.php">Honour to NICCI</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown"> <a class="nav-link" href="gallery.php">Gallery</a> </li>
-              <li class="nav-item dropdown"> <a class="nav-link" href="contactus.php">Contact US</a> </li>
-              <li class="nav-item dropdown"> <a class="nav-link" href="download.php">Download</a> </li>
-              <li class="nav-item dropdown"> <a class="nav-link" href="archive.php">Archive</a> </li>
-            </ul> -->
+            </ul>
           </div>
-          <!-- navbar-collapse.// --> 
-          
-        </div>
-        <!-- container-fluid.// --> 
+          <!-- navbar-collapse.// -->          
+        
       </nav>
       <div class="searchSection">
         <div class="searchIcon"><i class="icon icon-search"></i></div>

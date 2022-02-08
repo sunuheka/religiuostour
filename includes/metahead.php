@@ -15,18 +15,14 @@
 <link href="assets/dist/style.min.css?ver=0.0.1" rel="stylesheet" >
 <title>Relegius Circuit</title>
 <style>
-  .navContent {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
   .menu li.dropdown:hover>.dropdown-menu {
     z-index: 12;
   }
-input {
+/* input {
   position: absolute;
   opacity: 0;
   z-index: -1;
-}
+} */
  /* Accordion styles */
 .tabs {
   max-width: 780px;

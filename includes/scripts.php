@@ -19,8 +19,8 @@
     <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script> -->
 
-<script src="assets/js/masonary/masonry.pkgd.js"></script>
-<script src="assets/js/masonary/imagesloaded.pkgd.js"></script>
+<!-- <script src="assets/js/masonary/masonry.pkgd.js"></script>
+<script src="assets/js/masonary/imagesloaded.pkgd.js"></script> -->
     <script>
         jQuery(document).ready(function() {  
             var swiper = new Swiper('.swiper-container', {
@@ -72,7 +72,7 @@
                 autoplay: true,
 
                 breakpoints: {
-                    365: {
+                    375: {
                         slidesPerView: 1,
                     },
                     640: {
@@ -112,7 +112,7 @@
                 autoplay: true,
 
                 breakpoints: {
-                    365: {
+                    375: {
                         slidesPerView: 1,
                     },
                     640: {
@@ -159,12 +159,14 @@
             var swiper = new Swiper('.swiper-container-video', {
                 loop: true,
                 slidesPerView: 1,
+                // autoplay: {
+                //     delay: 10000,
+                // },
                 pagination: {
                     el: '.swiper-pagination-video',
                     clickable: true,
                 },
-            });
-            
+            });           
 
             lightGallery(document.getElementById('lightgallery'));
             // lightGallery(document.getElementById('lightgallery1'));
@@ -185,18 +187,18 @@
                 $(this).parents( '.contentBlockVideo' ).removeClass('showvideo');
             });
 
-            var $grid = $('.grid').masonry({
-                // set itemSelector so .grid-sizer is not used in layout
-                itemSelector: '.grid-item',
-                // use element for option
-                columnWidth: '.col-sm-4',
-                percentPosition: true
-            })
+            // var $grid = $('.grid').masonry({
+            //     // set itemSelector so .grid-sizer is not used in layout
+            //     itemSelector: '.grid-item',
+            //     // use element for option
+            //     columnWidth: '.col-sm-4',
+            //     percentPosition: true
+            // })
 
             // layout Masonry after each image loads
-            $grid.imagesLoaded().progress( function() {
-                $grid.masonry('layout');
-            });
+            // $grid.imagesLoaded().progress( function() {
+            //     $grid.masonry('layout');
+            // });
 
             
         });
@@ -232,14 +234,7 @@
             }
         });
 
-        var swiper = new Swiper('.swiper-container-video', {
-            loop: true,
-            slidesPerView: 1,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
+        
 
         /*is visible*/
         (function($) {

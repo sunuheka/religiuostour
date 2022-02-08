@@ -5,56 +5,17 @@
             <h2 class="h2">Discover The Religious Circuits     </h2>
         </div>
 
-        <div class="row" id="lightgallery">
-            <!-- <div class="grid-sizer"></div> -->
-            <div class="col-sm-4" data-src="./assets/img/image.png">
-                <a href="" class="galleryImage">
-                <figure>
-                    <img src="./assets/img/image.png" alt="image">
-                </figure>
-                    <div class="galleryContent">Nepal Buddhist Relegion</div>
-                </a>
-            </div>
-            <div class="col-sm-4" data-src="./assets/img/image.png">
-                <a href="" class="galleryImage">
+        <div class="row grid" id="lightgallery">
+            <?php for( $i=1; $i <= 6; $i++ ) { ?>
+                <div class="col-sm-4 grid-item" data-src="./assets/img/image.png">
+                    <a href="" class="galleryImage">
                     <figure>
-                        <img src="./assets/img/image.png" alt="">
+                        <img src="./assets/img/image.png" alt="image">
                     </figure>
-                    <div class="galleryContent">Nepal Buddhist Relegion</div>
-                </a>
-            </div>
-            <div class="col-sm-4" data-src="./assets/img/ram.png">
-                <a href="" class="galleryImage">
-                    <figure>
-                        <img src="./assets/img/ram.png" alt="">
-                    </figure>
-                    <div class="galleryContent">Nepal Buddhist Relegion</div>
-                </a>
-            </div>
-            <div class="col-sm-4" data-src="./assets/img/image.png">
-                <a href="" class="galleryImage">
-                    <figure>
-                        <img src="./assets/img/image.png" alt="">
-                    </figure>
-                    <div class="galleryContent">Nepal Buddhist Relegion</div>
-                </a>
-            </div>
-            <div class="col-sm-4" data-src="./assets/img/img.png">
-                <a href="" class="galleryImage">
-                    <figure>
-                        <img src="./assets/img/img.png" alt="">
-                    </figure>
-                    <div class="galleryContent">Nepal Buddhist Relegion</div>
-                </a>
-            </div>
-            <div class="col-sm-4" data-src="./assets/img/Boudhanath.jpg">
-                <a href="" class="galleryImage">
-                    <figure>
-                        <img src="./assets/img/Boudhanath.jpg" alt="">
-                    </figure>
-                    <div class="galleryContent">Nepal Buddhist Relegion</div>
-                </a>
-            </div>
+                        <div class="galleryContent">Nepal Buddhist Relegion</div>
+                    </a>
+                </div>
+            <?php } ?>            
         </div>
     </div>
 </section>

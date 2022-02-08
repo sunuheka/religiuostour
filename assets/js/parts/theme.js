@@ -1,7 +1,7 @@
 class Theme extends Component {
 
 	init() {
-		this.addMenuClass();
+		//this.addMenuClass();
 		//this.bindUIActions();
 		// this.addOpenClass();
 	}

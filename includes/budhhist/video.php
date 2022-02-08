@@ -8,7 +8,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi iure facere aut debitis inventore ipsa? Sed nam ipsam praesentium aut, sapiente odit eius, voluptates nobis unde voluptatem sequi, officiis atque.</p>
         </div>
         <div class="col-sm-6">
-            <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+            <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=0&mute=1">
             </iframe>
         </div>
         </div>
@@ -20,7 +20,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi iure facere aut debitis inventore ipsa? Sed nam ipsam praesentium aut, sapiente odit eius, voluptates nobis unde voluptatem sequi, officiis atque.</p>
         </div>
         <div class="col-sm-6">
-            <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+            <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=0&mute=1">
             </iframe>
         </div>
         </div>
@@ -32,13 +32,13 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi iure facere aut debitis inventore ipsa? Sed nam ipsam praesentium aut, sapiente odit eius, voluptates nobis unde voluptatem sequi, officiis atque.</p>
         </div>
         <div class="col-sm-6">
-            <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+            <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=0&mute=1">
             </iframe>
         </div>
         </div>
     </div>
 </div>
 <!-- Add Pagination -->
-<div class="swiper-pagination"></div>
+<div class="swiper-pagination-video"></div>
 </div>
 </section>

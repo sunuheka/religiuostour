@@ -20,82 +20,27 @@
                 <div class="swiper-container-list">
                     <!-- swiper slides -->
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" >
-                            <a href="#" class="listPersons">
-                                <div class="imageWrapper">
-                                    <img src="./assets/img/person1.jpg" alt=""> 
-                                </div>
-                                <div class="listPersonsDetail">
-                                    <div class="personsSocialicons"> 
-                                    <span class="icon icon-facebook"></span>
-                                    <span class="icon icon-twitter"></span>
-                                    <span class="icon icon-instagram"></span>
-                                    <span class="icon icon-pinterest"></span>
-                                    <span class="icon icon-linkedln"></span>
+                        <?php for( $i=1; $i <= 3; $i++ ) { ?>
+                            <div class="swiper-slide" >
+                                <a href="#" class="listPersons">
+                                    <div class="imageWrapper">
+                                        <img src="./assets/img/person1.jpg" alt=""> 
                                     </div>
-                                    <h3>Bharat Raj Paudyal</h3>
-                                    <h5>Foreign a Secretary <span class="d-block">Nepal</span></h5>
-                                    <p>The private guides were interesting and knowledgeable. We felt that they were more than just guides.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="swiper-slide" >
-                            <a href="#" class="listPersons">
-                                <div class="imageWrapper">
-                                    <img src="./assets/img/person1.jpg" alt=""> 
-                                </div>
-                                <div class="listPersonsDetail">
-                                    <div class="personsSocialicons"> 
-                                    <span class="icon icon-facebook"></span>
-                                    <span class="icon icon-twitter"></span>
-                                    <span class="icon icon-instagram"></span>
-                                    <span class="icon icon-pinterest"></span>
-                                    <span class="icon icon-linkedln"></span>
+                                    <div class="listPersonsDetail">
+                                        <div class="personsSocialicons"> 
+                                        <span class="icon icon-facebook"></span>
+                                        <span class="icon icon-twitter"></span>
+                                        <span class="icon icon-instagram"></span>
+                                        <span class="icon icon-pinterest"></span>
+                                        <span class="icon icon-linkedln"></span>
+                                        </div>
+                                        <h3>Bharat Raj Paudyal</h3>
+                                        <h5>Foreign a Secretary <span class="d-block">Nepal</span></h5>
+                                        <p>The private guides were interesting and knowledgeable. We felt that they were more than just guides.</p>
                                     </div>
-                                    <h3>Bharat Raj Paudyal</h3>
-                                    <h5>Foreign a Secretary <span class="d-block">Nepal</span></h5>
-                                    <p>The private guides were interesting and knowledgeable. We felt that they were more than just guides.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="swiper-slide" >
-                            <a href="#" class="listPersons">
-                                <div class="imageWrapper">
-                                    <img src="./assets/img/person1.jpg" alt=""> 
-                                </div>
-                                <div class="listPersonsDetail">
-                                    <div class="personsSocialicons"> 
-                                    <span class="icon icon-facebook"></span>
-                                    <span class="icon icon-twitter"></span>
-                                    <span class="icon icon-instagram"></span>
-                                    <span class="icon icon-pinterest"></span>
-                                    <span class="icon icon-linkedln"></span>
-                                    </div>
-                                    <h3>Bharat Raj Paudyal</h3>
-                                    <h5>Foreign a Secretary <span class="d-block">Nepal</span></h5>
-                                    <p>The private guides were interesting and knowledgeable. We felt that they were more than just guides.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="swiper-slide" >
-                            <a href="#" class="listPersons">
-                                <div class="imageWrapper">
-                                    <img src="./assets/img/person1.jpg" alt=""> 
-                                </div>
-                                <div class="listPersonsDetail">
-                                    <div class="personsSocialicons"> 
-                                    <span class="icon icon-facebook"></span>
-                                    <span class="icon icon-twitter"></span>
-                                    <span class="icon icon-instagram"></span>
-                                    <span class="icon icon-pinterest"></span>
-                                    <span class="icon icon-linkedln"></span>
-                                    </div>
-                                    <h3>Bharat Raj Paudyal</h3>
-                                    <h5>Foreign a Secretary <span class="d-block">Nepal</span></h5>
-                                    <p>The private guides were interesting and knowledgeable. We felt that they were more than just guides.</p>
-                                </div>
-                            </a>
-                        </div>
+                                </a>
+                            </div>
+                        <?php } ?>
                     </div>
 
                     <!-- Add Pagination -->

@@ -7,7 +7,7 @@
                     <div class="col-sm-12">
                         <div class="footerBottomContent">
                             <div class="row">
-                                <div class="col-sm-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
                                     <h3>Quick Links</h3>
                                     <ul>
                                         <li><a href="#">Home</a></li>
@@ -17,18 +17,18 @@
                                     </ul>
                                 </div>
 
-                                <div class="col-sm-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
                                     <h3>All Circuits</h3>
                                     <ul>
-                                        <li><a href="#">Ramayan Circuit</a></li>
-                                        <li><a href="#">Buddhist Circuit</a></li>
-                                        <li><a href="#">Mahabharat Circuit</a></li>
-                                        <li><a href="#">Sikh Circuit</a></li>
-                                        <li><a href="#">Shiv Shakti Circuit</a></li>
+                                        <li><a href="budhhist.php">Ramayan Circuit</a></li>
+                                        <li><a href="budhhist.php">Buddhist Circuit</a></li>
+                                        <li><a href="budhhist.php">Mahabharat Circuit</a></li>
+                                        <li><a href="budhhist.php">Sikh Circuit</a></li>
+                                        <li><a href="budhhist.php">Shiv Shakti Circuit</a></li>
                                     </ul>
                                 </div>
 
-                                <div class="col-sm-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
                                     <h3>Contact Info</h3>
                                     <div class="footerLocation">
                                         <span class="icon icon-map"></span><p> Permanent Address, Temporary location, Nepal</p> 
@@ -41,7 +41,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-sm-3">
+                                <div class="col-lg-3 col-md-4 col-sm-6">
                                     <h3>Make Reservation</h3>
                                     <p>Our Support and Sales team is available 24/7 to answer your queries</p>
                                     <a href="callto:" class="btn btn-primary"><span class="icon icon-call"></span> +123456789</a>
