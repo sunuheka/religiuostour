@@ -46,12 +46,15 @@
                 //autoplay: true,
 
                 breakpoints: {
-                    640: {
-                        slidesPerView: 2,
+                    375: {
+                        slidesPerView: 1,
                         //spaceBetween: 20,
                     },
+                    640: {
+                        slidesPerView: 2,
+                    },
                     768: {
-                        slidesPerView: 4,
+                        slidesPerView: 3,
                         //spaceBetween: 40,
                     },
                     1024: {
@@ -159,6 +162,7 @@
             var swiper = new Swiper('.swiper-container-video', {
                 loop: true,
                 slidesPerView: 1,
+                spaceBetween: 30,
                 // autoplay: {
                 //     delay: 10000,
                 // },

@@ -6,7 +6,7 @@
                     <!-- swiper slides -->
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" ">                        
-                            <div class="image-layer" style="background-image: url('./assets/img/bodhnath-stupa.jpg');"></div>
+                            <div class="image-layer" style="background-image: url('./assets/img/Baudha.jpg');"></div>
                             <div class="overlay"></div>
                             <div class="banner_contents">
                                 <h1 class="h1">Welcome To</h1>
@@ -15,7 +15,16 @@
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="image-layer" style="background-image: url('./assets/img/ramyan.jpg');"></div>
+                            <div class="image-layer" style="background-image: url('./assets/img/Bodhgaya Prayer DSC_1585.JPG');"></div>
+                            <div class="overlay"></div>
+                            <div class="banner_contents">
+                                <h1 class="h1">Explore To</h1>
+                                <h2 class="h1 textbg">BUDHHIST CIRCUIT</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="image-layer" style="background-image: url('./assets/img/Kushinagara DSC_2216.JPG');"></div>
                             <div class="overlay"></div>
                             <div class="banner_contents">
                                 <h1 class="h1">Explore To</h1>

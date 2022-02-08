@@ -12,7 +12,7 @@
         <div class="row circuitCotainer">
             <!-- <div class="col-lg-7 circuitLeft"> -->
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-md-3 col-sm-6">
                         <div class="circuitItem">
                             <div class="circuitImage">
                             <figure>
@@ -23,7 +23,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3 col-sm-6">
                         <div class="circuitItem">
                             <div class="circuitImage">
                             <figure>
@@ -34,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3 col-sm-6">
                     <div class="circuitItem">
                     <div class="circuitImage">
                     <figure>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                     </div>
-                <div class="col-sm-3">
+                <div class="col-md-3 col-sm-6">
                 <div class="circuitItem">
                     <div class="circuitImage">
                     <figure>

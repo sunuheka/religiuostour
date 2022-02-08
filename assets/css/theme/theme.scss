@@ -623,6 +623,11 @@ a.logo {
 .sectionLocation {
 	padding-top: 50px;
 	padding-bottom: 40px;
+	overflow: hidden;
+
+	.col-sm-6 {
+		margin-bottom: 30px;
+	}
 }
 
 .addicon {
@@ -826,6 +831,10 @@ a.logo {
 
 	&Image {
 		position: relative;
+
+		img {
+			width: 100%;
+		}
 	}
 
 	&Content {
@@ -1091,9 +1100,13 @@ a.logo {
 	padding: 50px 0;
 
 	.swiper-container-small2 {
-		margin: 0 100px;
+		margin: 0 30px;
 		overflow: hidden;
 		position: relative;
+
+		@media ( min-width: 768px ) {
+			margin: 0 100px;
+		}
 	}
 
 	.swiper-wrapper {
@@ -1155,6 +1168,7 @@ a.logo {
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: cover;
+	position: relative;
 
 	.container {
 		overflow: hidden;
@@ -1175,6 +1189,8 @@ a.logo {
 
 	iframe {
 		border: none;
+		max-width: 450px;
+		width: 100%;
 	}
 
 	.swiper-pagination-video {
@@ -1190,6 +1206,39 @@ a.logo {
 				background-color: $yellow;
 				opacity: 1;
 			}
+		}
+	}
+
+	.swiper-slide {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+
+		@media ( min-width: 768px ) {
+			flex-direction: row;
+		}
+	}
+
+	.video-content {
+		@media ( max-width: 767px ) {
+			margin-bottom: 20px;
+		}
+
+		* {
+			color: $white;
+		}
+	}
+
+	.video-content,
+	.video-iframe {
+		padding-left: 20px;
+		padding-right: 20px;
+		max-width: 100%;
+		flex: 0 0 100%;
+
+		@media ( min-width: 768px ) {
+			max-width: 50%;
+			flex: 0 0 50%;
 		}
 	}
 }

@@ -14,7 +14,15 @@
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="image-layer" style="background-image: url('./assets/img/monastery.png');"></div>
+                            <div class="image-layer" style="background-image: url('./assets/img/Janaki_Temple.56.jpg');"></div>
+                            <div class="banner_contents">
+                                <h1 class="h1">Religiuos Tourism Between</h1>
+                                <h2 class="h1 textbg">NEPAL and INDIA</h2>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="image-layer" style="background-image: url('./assets/img/pasupatinath.56.jpg');"></div>
                             <div class="banner_contents">
                                 <h1 class="h1">Religiuos Tourism Between</h1>
                                 <h2 class="h1 textbg">NEPAL and INDIA</h2>
