@@ -6,26 +6,38 @@
                     <!-- swiper slides -->
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" ">
+                            <div class="overlay"></div>
                             <div class="image-layer" style="background-image: url('./assets/img/banner.jpg');"></div>
                             <div class="banner_contents">
                                 <h1 class="h1">Religiuos Tourism Between</h1>
                                 <h2 class="h1 textbg">NEPAL and INDIA</h2>
+                                <div class="banner-btn">
+                                    <a href="" class="btn btn-primary">View More</a>
+                                </div>
                             </div>
                         </div>
 
                         <div class="swiper-slide">
+                        <div class="overlay"></div>
                             <div class="image-layer" style="background-image: url('./assets/img/Janaki_Temple.56.jpg');"></div>
                             <div class="banner_contents">
                                 <h1 class="h1">Religiuos Tourism Between</h1>
                                 <h2 class="h1 textbg">NEPAL and INDIA</h2>
+                                <div class="banner-btn">
+                                    <a href="" class="btn btn-primary">View More</a>
+                                </div>
                             </div>
                         </div>
 
                         <div class="swiper-slide">
+                        <div class="overlay"></div>
                             <div class="image-layer" style="background-image: url('./assets/img/pasupatinath.56.jpg');"></div>
                             <div class="banner_contents">
                                 <h1 class="h1">Religiuos Tourism Between</h1>
                                 <h2 class="h1 textbg">NEPAL and INDIA</h2>
+                                <div class="banner-btn">
+                                    <a href="" class="btn btn-primary">View More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
