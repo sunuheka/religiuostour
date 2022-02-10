@@ -39,11 +39,11 @@ In the 3rd century BCE, roughly two centuries after the demise (Mahaparinirvana)
     <?php //include 'includes/news-blog.php';?>
     <?php include 'includes/budhhist/gallery.php';?>
     <?php include 'includes/budhhist/video.php';?>
-    <?php include 'includes/budhhist/location.php';?>
-    <?php include 'includes/budhhist/circuits.php';?>
-    <?php include 'includes/budhhist/map.php';?>
-    <?php include 'includes/budhhist/testimonial.php';?>
-    <?php //include 'includes/nicci.php';?>
+    <?php include 'includes/budhhist/location.php'; ?>
+    <?php include 'includes/budhhist/circuits.php'; ?>
+    <?php include 'includes/budhhist/map.php'; ?>
+    <?php include //'includes/budhhist/testimonial.php'; ?>
+    <?php //include 'includes/nicci.php'; ?>
     <?php include 'includes/footer.php';?>
     <?php include 'includes/scripts.php';?>
 </body>

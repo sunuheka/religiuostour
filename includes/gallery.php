@@ -7,7 +7,7 @@
 
         <div class="row grid" id="lightgallery">
             <?php for( $i=1; $i <= 6; $i++ ) { ?>
-                <div class="col-sm-4 grid-item" data-src="./assets/img/image.png">
+                <div class="col-sm-4 grid-item" data-src="./assets/img/image.png" data-sub-html="Nepal Buddhist Relegion">
                     <a href="" class="galleryImage">
                     <figure>
                         <img src="./assets/img/image.png" alt="image">

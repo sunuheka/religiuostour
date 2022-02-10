@@ -26,12 +26,12 @@
               </li>
               <li class="nav-item"> <a class="nav-link" href="tour.php">Tour Packages</a> </li>
               <li class="nav-item"> <a class="nav-link" href="#gallery">Gallery</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="#partner">Partner</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="index.php#partner">Partner</a> </li>
               <li class="nav-item dropdown"> 
                 <a class="nav-link" href="#">Contact</a> 
                 <ul class="dropdown-menu">
                     <li><a href="http://nicci.org/" target="_blank" class="dropdown-item">NICC</a></li>
-                    <li><a href="#" class="dropdown-item">Experts</a></li>                    
+                    <li><a href="index.php#expert" class="dropdown-item">Experts</a></li>                    
                 </ul>
               </li>
           </ul>
@@ -67,14 +67,14 @@
               </li>
               <li class="nav-item"> <a class="nav-link" href="tour.php">Tour Packages</a> </li>
               <li class="nav-item"> <a class="nav-link" href="#gallery">Gallery</a> </li>
-              <li class="nav-item"> <a class="nav-link" href="#partner">Partner</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="index.php#partner">Partner</a> </li>
               <li class="nav-item dropdown"> 
                 <a class="nav-link" href="#">Contact</a>
                 <input type="checkbox" class="check-drop" />
                 <span class="icon-arrow drop-arrow"></span> 
                 <ul class="dropdown-menu">
                     <li><a href="http://nicci.org/" target="_blank" class="dropdown-item">NICC</a></li>
-                    <li><a href="#" class="dropdown-item">Experts</a></li>                    
+                    <li><a href="index.php#expert" class="dropdown-item">Experts</a></li>                    
                 </ul>
               </li>
             </ul>
